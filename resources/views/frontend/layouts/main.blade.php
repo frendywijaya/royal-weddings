@@ -62,10 +62,10 @@
                     </div><!-- /.logo-box -->
                     <div class="main-nav__main-navigation">
                         <ul class="main-nav__navigation-box">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="collection-grid.html">Gallery</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/gallery">Gallery</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul><!-- /.main-nav__navigation-box -->
                     </div><!-- /.main-nav__main-navigation -->
                     <div class="main-nav__right">

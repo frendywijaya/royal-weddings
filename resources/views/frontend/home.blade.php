@@ -9,7 +9,7 @@
             <div class="image-layer lazy-image" style="background-image: url('{{ asset('frontend/images/main-slider/banner-2-1.jpg') }}');"></div>
             <div class="container">
                 <div class="content-box text-center">
-                    <h3>{{ $data['name'] }}</h3>
+                    <h3>Test Data</h3>
                     <h2>The World’s Leading Museum <br />of Contemporary Art</h2>
                     <div class="btn-box">
                         <a href="#" class="thm-btn btn-style-one">Learn More</a>
