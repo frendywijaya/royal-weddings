@@ -76,7 +76,7 @@
                         </div>
                         <!-- /.cta-two__icon -->
                         <div class="cta-two__content">
-                            <h3>Find Location</h3>
+                            <h3>Our Headquarter</h3>
                             <p>
                                 Muszex Museums 32 Quincy <br />
                                 Street Cambridge, MA
@@ -95,12 +95,12 @@
                         </div>
                         <!-- /.cta-two__icon -->
                         <div class="cta-two__content">
-                            <h3>Get Ticket</h3>
+                            <h3>Reach Us</h3>
                             <p>
                                 Muszex Museums 32 Quincy <br />
                                 Street Cambridge, MA
                             </p>
-                            <a href="contact.html" class="thm-btn">Buy Online</a><!-- /.thm-btn -->
+                            <a href="contact.html" class="thm-btn">Whatsapp Us</a><!-- /.thm-btn -->
                         </div>
                         <!-- /.cta-two__box -->
                     </div>
@@ -121,7 +121,7 @@
             <div class="col-lg-6">
                 <div class="about-two__content">
                     <div class="block-title">
-                        <p>About Muzex</p>
+                        <p>About Royal Weddings International</p>
                         <h3>The Art Gallery of San Francisco</h3>
                     </div>
                     <!-- /.block-title -->
@@ -189,196 +189,59 @@
 <section class="collection-two">
     <div class="container-fluid">
         <div class="block-title-two text-center">
-            <p>Gallery</p>
-            <h3>Explore The Collection</h3>
-        </div><!-- /.block-title-two -->
-        <div class="collection-two__carousel shadowed__carousel thm__owl-carousel owl-carousel owl-theme" data-options='{
-    "loop": true, "margin": 0, "autoplay": true, "autoplayTimeout": 5000, "autoplayHoverPause": true, "items": 5, "smartSpeed": 700, "dots": false, "nav": true, "responsive": {
-        "1920": { "items": 5},
-        "1440": { "items": 4},
-        "1199": { "items": 4},
-        "991": { "items": 3},
-        "767": { "items": 2},
-        "575": { "items": 2},
-        "480": { "items": 2},
-        "0": { "items": 1}
-    }
-}'>
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-1.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">St. Catherine Alexandria <br> in Prison</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-2.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">Alexandria in <br> Prison</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-3.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">Tower of <br> Babel (Babylon)</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-4.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">The Lascaux <br> Cave</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-5.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">Mercenary Soldiers <br> In Ottoman</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-
-
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-1.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">St. Catherine Alexandria <br> in Prison</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-2.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">Alexandria in <br> Prison</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-3.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">Tower of <br> Babel (Babylon)</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-4.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">The Lascaux <br> Cave</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-5.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">Mercenary Soldiers <br> In Ottoman</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-
-
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-1.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">St. Catherine Alexandria <br> in Prison</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-2.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">Alexandria in <br> Prison</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-3.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">Tower of <br> Babel (Babylon)</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-4.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">The Lascaux <br> Cave</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-            <div class="item">
-                <div class="collection-two__single">
-                    <div class="collection-two__image">
-                        <img src="{{ asset('frontend/images/collection/collection-2-5.jpg') }}" alt="">
-                    </div><!-- /.collection-two__image -->
-                    <div class="collection-two__content">
-                        <h3><a href="#">Mercenary Soldiers <br> In Ottoman</a></h3>
-                        <p>Linda M. Dugan</p>
-                    </div><!-- /.collection-two__content -->
-                </div><!-- /.collection-two__single -->
-            </div><!-- /.item -->
-
-        </div><!-- /.collection-two__carousel shadowed__carousel thm__owl-carousel owl-carousel owl-theme -->
+            <p>Partners</p>
+            <h3>Our Trusted Partners</h3>
     </div><!-- /.container-fluid -->
+    <div class="container">
+        <div class="brand-one__carousel thm__owl-carousel owl-carousel owl-theme" data-options='{
+    "items": 5, "margin": 150, "smartSpeed": 700, "loop": true, "autoplay": true, "autoplayTimeout": 5000, "autoplayHoverPause": false, "nav": false, "dots": false, "responsive": {"0": {"margin": 20, "items": 2 }, "575": {"margin": 30, "items": 3 }, "767": {"margin": 40, "items": 4 }, "991": {"margin": 70, "items": 4 }, "1199": {"margin": 150, "items": 5 } } }'>
+            <div class="item">
+                <img src="{{ asset('frontend/images/brand/brand-1-1.png') }}" alt="" />
+            </div>
+            <!-- /.item -->
+            <div class="item">
+                <img src="{{ asset('frontend/images/brand/brand-1-2.png') }}" alt="" />
+            </div>
+            <!-- /.item -->
+            <div class="item">
+                <img src="{{ asset('frontend/images/brand/brand-1-3.png') }}" alt="" />
+            </div>
+            <!-- /.item -->
+            <div class="item">
+                <img src="{{ asset('frontend/images/brand/brand-1-4.png') }}" alt="" />
+            </div>
+            <!-- /.item -->
+            <div class="item">
+                <img src="{{ asset('frontend/images/brand/brand-1-5.png') }}" alt="" />
+            </div>
+            <!-- /.item -->
+            <div class="item">
+                <img src="{{ asset('frontend/images/brand/brand-1-1.png') }}" alt="" />
+            </div>
+            <!-- /.item -->
+            <div class="item">
+                <img src="{{ asset('frontend/images/brand/brand-1-2.png') }}" alt="" />
+            </div>
+            <!-- /.item -->
+            <div class="item">
+                <img src="{{ asset('frontend/images/brand/brand-1-3.png') }}" alt="" />
+            </div>
+            <!-- /.item -->
+            <div class="item">
+                <img src="{{ asset('frontend/images/brand/brand-1-4.png') }}" alt="" />
+            </div>
+            <!-- /.item -->
+            <div class="item">
+                <img src="{{ asset('frontend/images/brand/brand-1-5.png') }}" alt="" />
+            </div>
+            <!-- /.item -->
+        </div>
+        <!-- /.brand-one__carousel thm__owl-carousel owl-carousel owl-theme -->
+    </div>
+    <!-- /.container -->
 </section><!-- /.collection-two -->
 
-<section class="cta-one" style="background-image: url({{ asset('/images/shapes/cta-bg-1-1.jpg') }});">
+<section class="cta-one" style="background-image: url({{ asset('frontend/images/shapes/cta-bg-1-1.jpg') }});">
     <div class="container text-center">
         <h3>More Than 1250 Exhibits!</h3>
         <p>
@@ -494,56 +357,5 @@
         </div><!-- /.row no-gutters -->
     </div><!-- /.container-fluid -->
 </section><!-- /.testimonials-one -->
-
-<section class="brand-one">
-    <div class="container">
-        <div class="brand-one__carousel thm__owl-carousel owl-carousel owl-theme" data-options='{
-    "items": 5, "margin": 150, "smartSpeed": 700, "loop": true, "autoplay": true, "autoplayTimeout": 5000, "autoplayHoverPause": false, "nav": false, "dots": false, "responsive": {"0": {"margin": 20, "items": 2 }, "575": {"margin": 30, "items": 3 }, "767": {"margin": 40, "items": 4 }, "991": {"margin": 70, "items": 4 }, "1199": {"margin": 150, "items": 5 } } }'>
-            <div class="item">
-                <img src="{{ asset('frontend/images/brand/brand-1-1.png') }}" alt="" />
-            </div>
-            <!-- /.item -->
-            <div class="item">
-                <img src="{{ asset('frontend/images/brand/brand-1-2.png') }}" alt="" />
-            </div>
-            <!-- /.item -->
-            <div class="item">
-                <img src="{{ asset('frontend/images/brand/brand-1-3.png') }}" alt="" />
-            </div>
-            <!-- /.item -->
-            <div class="item">
-                <img src="{{ asset('frontend/images/brand/brand-1-4.png') }}" alt="" />
-            </div>
-            <!-- /.item -->
-            <div class="item">
-                <img src="{{ asset('frontend/images/brand/brand-1-5.png') }}" alt="" />
-            </div>
-            <!-- /.item -->
-            <div class="item">
-                <img src="{{ asset('frontend/images/brand/brand-1-1.png') }}" alt="" />
-            </div>
-            <!-- /.item -->
-            <div class="item">
-                <img src="{{ asset('frontend/images/brand/brand-1-2.png') }}" alt="" />
-            </div>
-            <!-- /.item -->
-            <div class="item">
-                <img src="{{ asset('frontend/images/brand/brand-1-3.png') }}" alt="" />
-            </div>
-            <!-- /.item -->
-            <div class="item">
-                <img src="{{ asset('frontend/images/brand/brand-1-4.png') }}" alt="" />
-            </div>
-            <!-- /.item -->
-            <div class="item">
-                <img src="{{ asset('frontend/images/brand/brand-1-5.png') }}" alt="" />
-            </div>
-            <!-- /.item -->
-        </div>
-        <!-- /.brand-one__carousel thm__owl-carousel owl-carousel owl-theme -->
-    </div>
-    <!-- /.container -->
-</section>
-<!-- /.brand-one -->
 
 @endsection

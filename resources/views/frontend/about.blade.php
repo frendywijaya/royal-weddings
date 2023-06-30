@@ -17,7 +17,7 @@
             <div class="col-lg-6">
                 <div class="about-four__content">
                     <div class="block-title">
-                        <p>About muzex</p>
+                        <p>About Royal Weddings International</p>
                         <h3>The Modern Art Museum</h3>
                     </div><!-- /.block-title -->
                     <div class="about-four__highlite-text">
@@ -31,97 +31,6 @@
     </div><!-- /.container -->
 </section><!-- /.about-four -->
 
-<section class="history-one">
-    <img src="{{ asset('frontend/images/shapes/history-1-sculp.png') }}" class="history-one__sculp" alt="">
-    <div class="container">
-        <div class="block-title-two text-center">
-            <p>Timeline</p>
-            <h3>Our History</h3>
-        </div><!-- /.block-title-two -->
-        <div class="history-one__single">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="history-one__image wow fadeInLeft" data-wow-duration="1500ms">
-                        <img src="{{ asset('frontend/images/history/history-1-1.jpg') }}" alt="">
-                    </div><!-- /.history-one__image -->
-                </div><!-- /.col-lg-6 -->
-                <div class="col-lg-6 d-flex">
-                    <div class="history-one__content my-auto">
-                        <div class="history-one__top block-title">
-                            <p>1980</p>
-                            <h3>The Archive Gallery</h3>
-                        </div><!-- /.history-one__top block-title -->
-                        <p>Pommy ipsum therewith nutter well chuffed apple and pears wedding tackle balderdash toad in
-                            the whole one feels that wind up Union Jack doolally bloke.</p>
-                    </div><!-- /.history-one__content -->
-                </div><!-- /.col-lg-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.history-one__single -->
-        <div class="history-one__single">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
-                        <img src="{{ asset('frontend/images/history/history-1-2.jpg') }}" alt="">
-                    </div><!-- /.history-one__image -->
-                </div><!-- /.col-lg-6 -->
-                <div class="col-lg-6 d-flex">
-                    <div class="history-one__content my-auto">
-                        <div class="history-one__top block-title">
-                            <p>2003</p>
-                            <h3>Moving in New Home</h3>
-                        </div><!-- /.history-one__top block-title -->
-                        <p>Pommy ipsum therewith nutter well chuffed apple and pears wedding tackle balderdash toad in
-                            the whole one feels that wind up Union Jack doolally bloke.</p>
-                    </div><!-- /.history-one__content -->
-                </div><!-- /.col-lg-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.history-one__single -->
-        <div class="history-one__single">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="history-one__image wow fadeInLeft" data-wow-duration="1500ms">
-                        <img src="{{ asset('frontend/images/history/history-1-3.jpg') }}" alt="">
-                    </div><!-- /.history-one__image -->
-                </div><!-- /.col-lg-6 -->
-                <div class="col-lg-6 d-flex">
-                    <div class="history-one__content my-auto">
-                        <div class="history-one__top block-title">
-                            <p>2009</p>
-                            <h3>Art & Science Events</h3>
-                        </div><!-- /.history-one__top block-title -->
-                        <p>Pommy ipsum therewith nutter well chuffed apple and pears wedding tackle balderdash toad in
-                            the whole one feels that wind up Union Jack doolally bloke.</p>
-                    </div><!-- /.history-one__content -->
-                </div><!-- /.col-lg-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.history-one__single -->
-        <div class="history-one__single">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
-                        <img src="{{ asset('frontend/images/history/history-1-4.jpg') }}" alt="">
-                    </div><!-- /.history-one__image -->
-                </div><!-- /.col-lg-6 -->
-                <div class="col-lg-6 d-flex">
-                    <div class="history-one__content my-auto">
-                        <div class="history-one__top block-title">
-                            <p>2018</p>
-                            <h3>Art Gallery Showcasing</h3>
-                        </div><!-- /.history-one__top -->
-                        <p>Pommy ipsum therewith nutter well chuffed apple and pears wedding tackle balderdash toad in
-                            the whole one feels that wind up Union Jack doolally bloke.</p>
-                    </div><!-- /.history-one__content -->
-                </div><!-- /.col-lg-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.history-one__single -->
-    </div><!-- /.container -->
-</section><!-- /.history-one -->
-
-<section class="video-one text-center" style="background-image: url({{ asset('frontend/images/resources/video-parallax-1-1-.jpg') }});">
-    <div class="container">
-        <a href="https://www.youtube.com/watch?v=hO1tzmi1V5g" class="video-popup video-one__btn"><i class="fa fa-play"></i></a><!-- /.video-popup video-one__btn -->
-    </div><!-- /.container -->
-</section><!-- /.video-one -->
 <section class="team-one">
     <div class="container">
         <div class="block-title-two text-center">
@@ -186,6 +95,13 @@
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.team-one -->
+
+<section class="video-one text-center" style="background-image: url({{ asset('frontend/images/resources/video-parallax-1-1-.jpg') }});">
+    <div class="container">
+        <a href="https://www.youtube.com/watch?v=hO1tzmi1V5g" class="video-popup video-one__btn"><i class="fa fa-play"></i></a><!-- /.video-popup video-one__btn -->
+    </div><!-- /.container -->
+</section><!-- /.video-one -->
+
 
 <section class="cta-one" style="background-image: url({{ asset('frontend/images/shapes/cta-bg-1-1.jpg') }});">
     <div class="container text-center">

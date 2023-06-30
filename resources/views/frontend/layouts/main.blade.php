@@ -32,6 +32,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/custom.css') }}">
 
 
 </head>
@@ -45,8 +46,8 @@
                 </div><!-- /.topbar-one__left -->
                 <div class="topbar-one__right">
                     <a href="#"><i class="far fa-clock"></i> Mon - Sat 9.00 - 18.00</a>
-                    <a href="#"><i class="fa fa-phone-alt"></i> (251) 235-3256</a>
-                    <a href="#" class="thm-btn topbar__btn">Reach Us</a><!-- /.thm-btn -->
+                    <a href="https://wa.me/"><i class="fa fa-phone-alt"></i> (251) 235-3256</a>
+                    <a href="/contact" class="thm-btn topbar__btn">Reach Us</a><!-- /.thm-btn -->
                 </div><!-- /.topbar-one__right -->
             </div><!-- /.container -->
         </div><!-- /.topbar-one -->
@@ -55,8 +56,8 @@
             <div class="container">
                 <div class="inner-container">
                     <div class="logo-box">
-                        <a href="index.html">
-                            <img src="{{ asset('frontend/images/logo-1-1.png') }}" alt="" width="143">
+                        <a href="/">
+                            <img src="{{ asset('frontend/images/logo-1-1.png') }}" alt="" width="240">
                         </a>
                         <a href="#" class="side-menu__toggler"><i class="muzex-icon-menu"></i></a>
                     </div><!-- /.logo-box -->
@@ -89,8 +90,8 @@
             <div class="cursor-follower"></div>
         </div><!-- /.side-content__block-overlay -->
         <div class="side-content__block-inner ">
-            <a href="index.html">
-                <img src="{{ asset('frontend/images/logo-1-1.png') }}" alt="" width="143">
+            <a href="/">
+                <img class="img-navbar" src="{{ asset('frontend/images/logo-1-1.png') }}" alt="" width="200">
             </a>
             <div class="side-content__block-about">
                 <h3 class="side-content__block__title">About Us</h3><!-- /.side-content__block__title -->
@@ -107,7 +108,7 @@
                     </li><!-- /.side-content__block-contact__list-item -->
                     <li class="side-content__block-contact__list-item">
                         <i class="fa fa-phone"></i>
-                        <a href="tel:526-236-895-4732">(526) 236-895-4732</a>
+                        <a href="tel:526-236-895-4732">(65) 236-895-4732</a>
                     </li><!-- /.side-content__block-contact__list-item -->
                     <li class="side-content__block-contact__list-item">
                         <i class="fa fa-envelope"></i>
@@ -115,11 +116,10 @@
                     </li><!-- /.side-content__block-contact__list-item -->
                     <li class="side-content__block-contact__list-item">
                         <i class="fa fa-clock"></i>
-                        Week Days: 09.00 to 18.00 Sunday: Closed
+                        Week Days: 09.00 to 18.00<br>Sunday: Closed
                     </li><!-- /.side-content__block-contact__list-item -->
                 </ul><!-- /.side-content__block-contact__list -->
             </div><!-- /.side-content__block-contact -->
-            <p class="side-content__block__text site-footer__copy-text"><a href="#">Muzex</a> <i class="fa fa-copyright"></i> 2020 All Right Reserved</p>
         </div><!-- /.side-content__block-inner -->
     </div><!-- /.side-content__block -->
 
@@ -134,11 +134,11 @@
         </div><!-- /.side-menu__block-overlay -->
         <div class="side-menu__block-inner ">
 
-            <a href="index.html" class="side-menu__logo"><img src="{{ asset('frontend/images/logo-light-1-1.png') }}" alt="" width="143"></a>
+            <a href="/" class="side-menu__logo"><img src="{{ asset('frontend/images/logo-light-1-1.png') }}" alt="" width="143"></a>
             <nav class="mobile-nav__container">
                 <!-- content is loading via js -->
             </nav>
-            <p class="side-menu__block__copy">(c) 2020 <a href="#">Muzex</a> - All rights reserved.</p>
+            <p class="side-menu__block__copy">(c) 2023 <a href="#">Royal Weddings</a> - All rights reserved.</p>
             <div class="side-menu__social">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-google-plus"></i></a>

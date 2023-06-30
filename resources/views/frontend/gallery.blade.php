@@ -4,7 +4,7 @@
 <!-- Header Content -->
 <section class="page-header" style="background-image: url({{ asset('frontend/images/backgrounds/page-header-bg-1-1.jpg') }});">
     <div class="container">
-        <h2>Collection Masonary</h2>
+        <h2>Our Portfolio Collections</h2>
     </div><!-- /.container -->
 </section><!-- /.page-header -->
 

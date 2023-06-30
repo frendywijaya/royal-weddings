@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'muzex-icon';
-  src:  url('../fonts/muzex-icon.eot?u5t8b4');
+  src:  url('/public/frontend/fonts/muzex-icon.eot?u5t8b4');
   src:  url('../fonts/muzex-icon.eot?u5t8b4#iefix') format('embedded-opentype'),
     url('../fonts/muzex-icon.ttf?u5t8b4') format('truetype'),
     url('../fonts/muzex-icon.woff?u5t8b4') format('woff'),

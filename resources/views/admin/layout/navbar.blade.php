@@ -8,7 +8,7 @@
         </div>
 
         <div class="navbar-brand flex-1 flex-lg-0">
-            <a href="index.html" class="d-inline-flex align-items-center">
+            <a href="/" class="d-inline-flex align-items-center">
                 <img src="{{ asset('frontend/img/logo/w_logo.png') }}" alt="">
             </a>
         </div>

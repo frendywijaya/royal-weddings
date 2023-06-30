@@ -31,7 +31,7 @@
     <div class="navbar navbar-dark navbar-static py-2">
         <div class="container-fluid">
             <div class="navbar-brand">
-                <a href="index.html" class="d-inline-flex align-items-center">
+                <a href="/" class="d-inline-flex align-items-center">
                     <img src="{{ asset('frontend/img/logo/w_logo.png') }}" alt="">
                 </a>
             </div>

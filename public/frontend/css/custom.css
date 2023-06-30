@@ -1,0 +1,51 @@
+.main-nav-one .logo-box {
+    padding: 30px 0;
+}
+
+.img-navbar {
+    width: 300px;
+}
+
+.site-footer__bottom-logo {
+    transform: translateY(-40px);
+}
+
+.block-title-two {
+    padding-top: 120px;
+}
+
+.collection-masonary {
+    padding-top: 120px;
+}
+
+.about-four__image {
+    top: 80px;
+}
+
+.about-four__image::before {
+    top: -92px;
+}
+
+@media (max-width: 991px) {
+    .about-four__image {
+        top: 14px;
+    }
+    .footer-widget__about {
+        display: none;
+    }
+    .site-footer__bottom .inner-container {
+        padding-top: 96px;
+        padding-bottom: 20px;
+    }
+    .site-footer__bottom-logo {
+        left: auto;
+    }
+    .footer-widget__links-list li::before{
+        display: none;
+    }
+    .site-footer__upper{
+        text-align: center;
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+}

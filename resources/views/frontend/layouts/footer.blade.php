@@ -14,16 +14,16 @@
                         <h3 class="footer-widget__title">Quick Link</h3><!-- /.footer-widget__title -->
                         <ul class="footer-widget__links-list list-unstyled">
                             <li>
-                                <a href="#">Home</a>
+                                <a href="/">Home</a>
                             </li>
                             <li>
-                                <a href="#">About Us</a>
+                                <a href="/about">About Us</a>
                             </li>
                             <li>
-                                <a href="#">Gallery</a>
+                                <a href="/gallery">Gallery</a>
                             </li>
                             <li>
-                                <a href="#">Contact</a>
+                                <a href="/contact">Contact</a>
                             </li>
                         </ul><!-- /.footer-widget__links-list -->
                     </div><!-- /.footer-widget -->
@@ -50,9 +50,9 @@
     <div class="site-footer__bottom">
         <div class="container">
             <div class="inner-container">
-                <p>&copy; Copyright 2020 Muzex. All Rights Reserved</p>
-                <a href="index.html" class="site-footer__bottom-logo">
-                    <img src="{{ asset('frontend/images/logo-footer-1.png') }}" alt="">
+                <p>&copy; 2023 Royal Weddings International. All Rights Reserved</p>
+                <a href="/" class="site-footer__bottom-logo">
+                    <img src="{{ asset('frontend/images/logo-footer-1.png') }}" alt="" style="width: 220px">
                 </a>
                 <div class="site-footer__bottom-links">
                     <a href="#">Terms & conditions</a>

@@ -4,7 +4,7 @@
 <!-- Header Content -->
 <section class="page-header" style="background-image: url({{ asset('frontend/images/backgrounds/page-header-bg-1-1.jpg') }});">
     <div class="container">
-        <h2>Contact Page</h2>
+        <h2>Contact Us</h2>
     </div><!-- /.container -->
 </section><!-- /.page-header -->
 
@@ -12,8 +12,8 @@
 <div class="contact-one">
     <div class="container">
         <div class="block-title-two text-center">
-            <p>Contact</p>
-            <h3>Stay Touch With Art Gallery <br> of San Francisco</h3>
+            <p>Reach Us</p>
+            <h3>Stay in Touch With Royal<br>Weddings International</h3>
         </div><!-- /.block-title-two -->
         <div class="row">
             <div class="col-lg-4">
@@ -28,7 +28,7 @@
                         <a href="mailto:example@muzex.com">example@muzex.com</a> <br> <a href="tel:(617)-495-9400-326">(617) 495-9400-326</a></p>
                 </div><!-- /.contact-one__box -->
                 <div class="contact-one__box">
-                    <h3>Social Contact</h3>
+                    <h3>Social Media</h3>
                     <div class="contact-one__box-social">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-twitter"></a>
@@ -76,27 +76,6 @@
 
     </div><!-- /.container -->
 </div><!-- /.contact-map-one -->
-
-<div class="contact-box-one">
-    <div class="container">
-        <div class="row high-gutters">
-            <div class="col-lg-6">
-                <div class="contact-box-one__single">
-                    <h3>On A Tram</h3>
-                    <p>The No. 1 South Melbourne tram goes right past our door. Get off at Stop 18. Any tram down St
-                        Kilda Road—jump off at Grant Street, Stop 17 and take a 3-minute walk.</p>
-                </div><!-- /.contact-box-one__single -->
-            </div><!-- /.col-lg-6 -->
-            <div class="col-lg-6">
-                <div class="contact-box-one__single">
-                    <h3>Parking Options</h3>
-                    <p>Limited on-street parking is available on Grant Street, Sturt Street and Dodds Streets. Two
-                        disabled parking spaces are just outside The Coopers Malthouse entrance on Sturt Street.</p>
-                </div><!-- /.contact-box-one__single -->
-            </div><!-- /.col-lg-6 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-</div><!-- /.contact-box-one -->
 
 <section class="cta-one" style="background-image: url({{ asset('frontend/images/shapes/cta-bg-1-1.jpg') }});">
     <div class="container text-center">
