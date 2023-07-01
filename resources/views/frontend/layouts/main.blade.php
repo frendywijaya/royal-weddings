@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home 02 || Muzex || Museum and Artists HTML Template - shared on themelock.com</title>
+    <title>Royal Weddings International</title>
 
     <!-- favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('frontend/images/favicon/apple-touch-icon.png') }}">
