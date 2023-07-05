@@ -33,8 +33,8 @@
                         <h3 class="footer-widget__title">Contact</h3><!-- /.footer-widget__title -->
                         <p>Muszex Museums 32 Quincy <br>
                             Street Cambridge, MA</p>
-                        <p><a href="tel:(617)-495-9400">(617) 495-9400</a></p>
-                        <p><a href="mailto:example@muzex.com">example@muzex.com</a></p>
+                        <p><a href="tel:(+65) 9338 4263">(+65) 9338 4263</a></p>
+                        <p><a href="mailto:hello@royalweddings.com.sg">hello@royalweddings.com.sg</a></p>
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-lg-3 -->
                 <div class="col-lg-3">

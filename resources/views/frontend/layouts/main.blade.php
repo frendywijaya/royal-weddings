@@ -46,7 +46,7 @@
                 </div><!-- /.topbar-one__left -->
                 <div class="topbar-one__right">
                     <a href="#"><i class="far fa-clock"></i> Mon - Sat 9.00 - 18.00</a>
-                    <a href="https://wa.me/"><i class="fa fa-phone-alt"></i> (251) 235-3256</a>
+                    <a href="https://wa.me/6593384263"><i class="fa fa-phone-alt"></i> (+65) 9338 4263</a>
                     <a href="/contact" class="thm-btn topbar__btn">Reach Us</a><!-- /.thm-btn -->
                 </div><!-- /.topbar-one__right -->
             </div><!-- /.container -->

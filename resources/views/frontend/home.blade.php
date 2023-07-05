@@ -258,7 +258,7 @@
 </section>
 <!-- /.cta-one -->
 
-<section class="testimonials-one">
+{{-- <section class="testimonials-one">
     <div class="container-fluid">
         <div class="row no-gutters">
             <div class="col-lg-6 d-flex">
@@ -356,6 +356,6 @@
 
         </div><!-- /.row no-gutters -->
     </div><!-- /.container-fluid -->
-</section><!-- /.testimonials-one -->
+</section><!-- /.testimonials-one --> --}}
 
 @endsection

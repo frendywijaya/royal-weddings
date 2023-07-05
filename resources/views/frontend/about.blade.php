@@ -4,7 +4,7 @@
 <!-- Header Content -->
 <section class="page-header" style="background-image: url({{ asset('frontend/images/backgrounds/page-header-bg-1-1.jpg') }});">
     <div class="container">
-        <h2>About Page</h2>
+        <h2>About Us</h2>
     </div><!-- /.container -->
 </section><!-- /.page-header -->
 
@@ -17,14 +17,13 @@
             <div class="col-lg-6">
                 <div class="about-four__content">
                     <div class="block-title">
-                        <p>About Royal Weddings International</p>
-                        <h3>The Modern Art Museum</h3>
+                        <p>About Us</p>
+                        <h3>Royal Weddings International</h3>
                     </div><!-- /.block-title -->
                     <div class="about-four__highlite-text">
-                        <p>Welcome to the World’s Leading Museum of Modern Art. It includes works of art created during the period stretching from about 1860 to the 1970s.</p>
+                        <p>Welcome to Royal Weddings International. We are the largest destination wedding organizer in Singapore.</p>
                     </div><!-- /.about-four__highlite-text -->
-                    <p>Man face fruit divided seasons herb from herb moveth whose. Dominion gathered winged morning, man won’t had fly beginning. Winged have saying behold morning greater void shall created whose blessed herb light fruitful open void without itself whales.</p>
-                    <p>Good every beginning had one two gathered from living place seasons them divide fourth them. </p>
+                    <p>Royal Weddings International was formed to strive for excellence in every aspect of our work, aiming to exceed expectations and deliver exceptional service and experiences to our clients. We at Royal Weddings International uphold the highest standards of integrity, honesty, and transparency in our interactions with clients, partners, and team members. We believe in building trusting relationships based on mutual respect and ethical conduct. We value the uniqueness of each couple and their vision for their special day. We are dedicated to creating personalized, tailor-made experiences that reflect their individual style, preferences, and cultural backgrounds.We embrace creativity and innovation, constantly seeking fresh ideas and unique solutions to make each wedding extraordinary and memorable.</p>
                 </div><!-- /.about-four__content -->
             </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
