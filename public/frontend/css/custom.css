@@ -1,9 +1,29 @@
+.banner-section__home-two .content-box h3 {
+    color: var(--thm-black);
+}
+
 .main-nav-one .logo-box {
     padding: 30px 0;
 }
 
 .img-navbar {
     width: 300px;
+}
+
+.cta-two__home-two {
+    background-color: #111212;
+}
+
+.cta-two__home-two .cta-two__icon i {
+    color: var(--thm-black);
+}
+
+[class*="col-"]:nth-child(2) .cta-two__icon i {
+    color: var(--thm-black);
+}
+
+.cta-two__home-two .cta-two__box {
+    justify-content: center;
 }
 
 .site-footer__bottom-logo {
