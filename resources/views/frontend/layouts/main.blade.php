@@ -78,6 +78,8 @@
 
         <main>
             @yield('content')
+
+            @include('frontend.components.cta')
         </main>
 
         @include('frontend.layouts.footer')

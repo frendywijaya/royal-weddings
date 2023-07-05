@@ -137,21 +137,4 @@
     </div><!-- /.container -->
 </section><!-- /.collection-grid -->
 
-
-<section class="cta-one" style="background-image: url({{ asset('frontend/images/shapes/cta-bg-1-1.jpg') }});">
-    <div class="container text-center">
-        <h3>More Than 1250 Exhibits!</h3>
-        <p>
-            Every day more exhibits arrive in our museum. Do not <br />
-            wait and buy a ticket now.
-        </p>
-        <div class="cta-one__btn-block">
-            <a href="#" class="thm-btn cta-one__btn-one">Become A Member</a><!-- /.thm-btn cta-one__btn-one -->
-            <a href="#" class="thm-btn cta-one__btn">Buy Online</a><!-- /.thm-btn cta-one__btn-two -->
-        </div>
-        <!-- /.cta-one__btn-block -->
-    </div>
-    <!-- /.container -->
-</section>
-
 @endsection
