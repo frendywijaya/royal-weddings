@@ -17,22 +17,23 @@
         </div><!-- /.block-title-two -->
         <div class="row">
             <div class="col-lg-4">
-                <div class="contact-one__box">
+                {{-- <div class="contact-one__box">
                     <h3>Opening Hours</h3>
                     <p>Daily: 9.30 AM–6.00 PM <br> Sunday & Holidays: Closed</p>
-                </div><!-- /.contact-one__box -->
+                </div><!-- /.contact-one__box --> --}}
                 <div class="contact-one__box">
-                    <h3>Contact Info</h3>
-                    <p>77408 Satterfield Motorway <br> Suite 469 New Antonetta, BC </p>
+                    <h3>Singapore Headquarter</h3>
+                    <p>190 CLEMENCEAU AVENUE #06-08 <br>
+                        SINGAPORE 239924</p>
                     <p>
-                        <a href="mailto:example@muzex.com">example@muzex.com</a> <br> <a href="tel:(617)-495-9400-326">(617) 495-9400-326</a></p>
+                        <a href="mailto:hello@royalweddings.com.sg">hello@royalweddings.com.sg</a> <br> <a href="tel:(+65) 9338 4263">(+65) 9338 4263</a></p>
                 </div><!-- /.contact-one__box -->
                 <div class="contact-one__box">
                     <h3>Social Media</h3>
                     <div class="contact-one__box-social">
                         <a href="#" class="fab fa-facebook-f"></a>
-                        <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-vimeo"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-youtube"></a>
                         <a href="#" class="fab fa-linkedin-in"></a>
                     </div><!-- /.contact-one__box-social -->
                 </div><!-- /.contact-one__box -->
@@ -53,8 +54,8 @@
                             <select class="selectpicker">
                                 <option value="#">Discuss For</option>
                                 <option value="General Query">General Query</option>
-                                <option value="For Ticketing">For Ticketing</option>
-                                <option value="For Membership">For Membership</option>
+                                <option value="For Ticketing">Customer Services</option>
+                                <option value="For Membership">Finance & Billings</option>
                             </select><!-- /#.selectpicker -->
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-12">
@@ -72,7 +73,7 @@
 
 <div class="contact-map-one">
     <div class="container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd" class="google-map__contact" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.794271228245!2d103.84155707582455!3d1.2981675617380102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da199804a12a3d%3A0xa3eddf5a5ae7c117!2s190%20Clemenceau%20Ave%2C%20Singapore%20239924!5e0!3m2!1sen!2sid!4v1688587937635!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </div><!-- /.container -->
 </div><!-- /.contact-map-one -->

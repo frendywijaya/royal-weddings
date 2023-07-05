@@ -11,10 +11,10 @@
                     style="background-image: url('{{ asset('frontend/images/main-slider/banner-2-1.jpg') }}');"></div>
                 <div class="container">
                     <div class="content-box text-center">
-                        <h3>Test Data</h3>
-                        <h2>The World’s Leading Museum <br />of Contemporary Art</h2>
+                        <h3>First Class Service</h3>
+                        <h2>Singapore's Finest Destination <br />Wedding Planner</h2>
                         <div class="btn-box">
-                            <a href="#" class="thm-btn btn-style-one">Learn More</a>
+                            <a href="/about" class="thm-btn btn-style-one">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -25,10 +25,10 @@
                     style="background-image: url('{{ asset('frontend/images/main-slider/banner-2-2.jpg') }}');"></div>
                 <div class="container">
                     <div class="content-box text-center">
-                        <h3>The Past is our Future</h3>
-                        <h2>Discover the Treasures of a Egypt <br> Historical Museum</h2>
+                        <h3>First Class Service</h3>
+                        <h2>Singapore's Finest Destination <br />Wedding Planner</h2>
                         <div class="btn-box">
-                            <a href="#" class="thm-btn btn-style-one">Learn More</a>
+                            <a href="/about" class="thm-btn btn-style-one">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -39,10 +39,10 @@
                     style="background-image: url('{{ asset('frontend/images/main-slider/banner-2-3.jpg') }}');"></div>
                 <div class="container">
                     <div class="content-box text-center">
-                        <h3>Opening On Sat. Oct 20, 2020</h3>
-                        <h2>World’s Leading Museum of History <br> Over 2.3 k Collection</h2>
+                        <h3>First Class Service</h3>
+                        <h2>Singapore's Finest Destination <br />Wedding Planner</h2>
                         <div class="btn-box">
-                            <a href="#" class="thm-btn btn-style-one">Learn More</a>
+                            <a href="/about" class="thm-btn btn-style-one">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -82,8 +82,8 @@
                             <div class="cta-two__content">
                                 <h3>Our Headquarter</h3>
                                 <p>
-                                    Muszex Museums 32 Quincy <br />
-                                    Street Cambridge, MA
+                                    190 CLEMENCEAU AVENUE #06-08<br>
+                                    SINGAPORE 239924
                                 </p>
                                 <a href="contact.html" class="thm-btn">Getting Here</a><!-- /.thm-btn -->
                             </div>
@@ -95,16 +95,16 @@
                     <div class="col-lg-6">
                         <div class="cta-two__box">
                             <div class="cta-two__icon">
-                                <i class="muzex-icon-ticket"></i>
+                                <i class="ph ph-phone"></i>
                             </div>
                             <!-- /.cta-two__icon -->
                             <div class="cta-two__content">
                                 <h3>Reach Us</h3>
                                 <p>
-                                    Muszex Museums 32 Quincy <br />
-                                    Street Cambridge, MA
+                                    hello@royalweddings.com.sg<br />
+                                    (+65) 9338 4263
                                 </p>
-                                <a href="contact.html" class="thm-btn">Whatsapp Us</a><!-- /.thm-btn -->
+                                <a href="https://wa.me/6593384263" class="thm-btn">Whatsapp Us</a><!-- /.thm-btn -->
                             </div>
                             <!-- /.cta-two__box -->
                         </div>

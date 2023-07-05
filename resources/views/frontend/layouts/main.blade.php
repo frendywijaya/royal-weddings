@@ -14,6 +14,7 @@
 
     <!-- Fonts URL -->
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700%7CPlayfair+Display:400,500,600,700,800,900%7CWork+Sans:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
 
     <!-- Plugins CSS -->
@@ -45,7 +46,7 @@
                     <p>Welcome to Royal Weddings International</p>
                 </div><!-- /.topbar-one__left -->
                 <div class="topbar-one__right">
-                    <a href="#"><i class="far fa-clock"></i> Mon - Sat 9.00 - 18.00</a>
+                    <a href="mailto:hello@royalweddings.com.sg"><i class="far fa-envelope"></i> hello@royalweddings.com.sg</a>
                     <a href="https://wa.me/6593384263"><i class="fa fa-phone-alt"></i> (+65) 9338 4263</a>
                     <a href="/contact" class="thm-btn topbar__btn">Reach Us</a><!-- /.thm-btn -->
                 </div><!-- /.topbar-one__right -->
