@@ -87,4 +87,9 @@ Route::group(['as' => 'admin.', 'prefix' => '/admin', 'middleware' => 'auth'], f
             Route::post('/update', [App\Http\Controllers\Admin\ContactController::class, 'update'])->name('update');
         });
     });
+
+    // static page
+    Route::group(['as' => 'staticpage.', 'prefix' => 'staticpage'], function () {
+        Route::post('/{section}/store', [App\Http\Controllers\StaticPageController::class, 'save'])->name('save');
+    });
 });

@@ -10,7 +10,7 @@
                 <h5 class="mb-0">Home Page Content Management</h5>
             </div>
 
-            {{-- <form action="{{ route('admin.staticpage.save', 'aboutstatic') }}" method="POST" enctype="multipart/form-data"> --}}
+            <form action="{{ route('admin.staticpage.save', 'aboutstatic') }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="card-body">
                     <div class="accordion" id="accordion_expanded">
@@ -27,19 +27,71 @@
                                     <!-- Default input -->
                                     <div class="row">
                                         <div class="col-xl-6">
-                                            <div class="row mb-3">
-                                                <div class="col-lg-12 mb-3">
-                                                    <p class="fw-semibold">Cover Image</p>
-                                                    <input type="file" class="file-input file-upload"
-                                                        name="breadcrumb_cover_image" accept="image/*"
-                                                        data-default="">
-                                                </div>
-                                            </div>
+                                            <p class="fw-semibold">Text Content</p>
                                             <div class="row mb-3">
                                                 <label class="col-form-label col-lg-3">Title</label>
                                                 <div class="col-lg-9">
-                                                    <input type="text" class="form-control" name="breadcrumb_title"
-                                                        value="">
+                                                    <input type="text" class="form-control" name="about_title" value="{{ @$staticPage->about_title }}">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-form-label col-lg-3">Subtitle</label>
+                                                <div class="col-lg-9">
+                                                    <input type="text" class="form-control" name="about_subtitle" value="{{ @$staticPage->about_subtitle }}">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-form-label col-lg-3">Text 1</label>
+                                                <div class="col-lg-9">
+                                                    <textarea type="text" class="form-control" name="about_text_1" rows="3">{{ @$staticPage->about_text_1 }}</textarea>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-form-label col-lg-3">Text 2</label>
+                                                <div class="col-lg-9">
+                                                    <textarea type="text" class="form-control" name="about_text_2" rows="5">{{ @$staticPage->about_text_2 }}</textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <div class="row mb-3">
+                                                <div class="col-lg-12 mb-3">
+                                                    <p class="fw-semibold">About Image</p>
+                                                    <input type="file" class="file-input file-upload"
+                                                        name="about_image" accept="image/*"
+                                                        data-default="{{ @$staticPage->about_image }}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#expanded_item2">
+                                    Company Specialty
+                                </button>
+                            </h2>
+                            <div id="expanded_item2" class="accordion-collapse collapse"
+                                data-bs-parent="#accordion_expanded">
+                                <div class="accordion-body">
+                                    <!-- Default input -->
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <p class="fw-semibold">Text Content</p>
+                                            <div class="row mb-3">
+                                                <label class="col-form-label col-lg-3">Title</label>
+                                                <div class="col-lg-9">
+                                                    <input type="text" class="form-control" name="specialty_title" value="{{ @$staticPage->specialty_title }}">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-form-label col-lg-3">Text 1</label>
+                                                <div class="col-lg-9">
+                                                    <textarea type="text" class="form-control" name="specialty_text" rows="3">{{ @$staticPage->specialty_text }}</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -58,31 +110,6 @@
         <!-- /expanded state -->
     </div>
     <!-- /content area -->
-
-    <!-- modal edit link -->
-    <div id="modal_edit" class="modal fade" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Detail Pesan</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-
-                <div class="modal-body">
-                    <h6 class="fw-semibold">Judul Pesan</h6>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem. Praesent
-                        commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
-                        rutrum faucibus dolor auctor.</p>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger">Delete</button>
-                    <button type="button" class="btn btn-link" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /modal edit link -->
 
     @include('admin.layout.modal_delete')
 @endsection

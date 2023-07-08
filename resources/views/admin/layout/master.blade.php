@@ -180,11 +180,11 @@
                 // clear form input
                 $('#modal_form form')[0].reset();
                 // set title modal
-                $('#modal_form .modal-title').text('Tambah ' + $('#title-page').text());
+                $('#modal_form .modal-title').text('Add ' + $('#title-page').text());
                 // set url form
                 $('#modal_form form').attr('action', $(this).data('url'));
                 // set button submit
-                $('#modal_form form button[type=submit]').text('Buat ' + $('#title-page').text());
+                $('#modal_form form button[type=submit]').text('Create ' + $('#title-page').text());
                 // set _method to POST
                 $('#modal_form form input[name=_method]').val('POST');
             });
