@@ -9,7 +9,7 @@
 
         <div class="navbar-brand flex-1 flex-lg-0">
             <a href="/" class="d-inline-flex align-items-center">
-                <img src="{{ asset('frontend/img/logo/w_logo.png') }}" alt="">
+                <img src="{{ asset('frontend/images/logo-light.png') }}" alt="">
             </a>
         </div>
 

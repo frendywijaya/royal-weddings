@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Gtrust Admin Panel | @yield('title')</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('frontend/img/favicon.png') }}">
+    <title>Royal Weddings Admin Panel @yield('title')</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('frontend/images/favicon/favicon-32x32.png') }}">
 
     <!-- Global stylesheets -->
     <link href="{{ asset('admin/fonts/inter/inter.css') }}" rel="stylesheet" type="text/css">
@@ -79,7 +79,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 @endif
-                
+
                 @yield('content')
 
                 @include('admin.layout.footer')
@@ -99,7 +99,7 @@
         // for each element
         for (let i = 0; i < fileUpload.length; i++) {
             var filename = fileUpload[i].getAttribute('data-default');
-            if (filename) { 
+            if (filename) {
                 if ($(fileUpload[i]).hasClass('file-input')) {
                      // file input update on fileinput bootstrap
                     var initialPreviewConfig =  [
@@ -123,7 +123,7 @@
                         type: 'text/plain',
                         lastModified: new Date(),
                     });
-                
+
                     // // Now let's create a DataTransfer to get a FileList
                     const dataTransfer = new DataTransfer();
                     dataTransfer.items.add(myFile);
@@ -131,7 +131,7 @@
                 }
             }
         }
-    
+
     // <!-- script for dymanic form -->
         $(document).ready(function() {
             // Buttons inside zoom modal
@@ -202,7 +202,7 @@
                         const fileUploads = document.getElementsByClassName('file-upload');
                         // each fileUploads
                         var filename = item[v.name];
-                        if (filename) { 
+                        if (filename) {
                             if ($(v).hasClass('file-input')) {
 
                                 // file input update on fileinput bootstrap
@@ -216,7 +216,7 @@
                                 v.setAttribute('data-initial-preview-file-type', 'image');
                                 v.setAttribute('data-initial-preview-config', JSON.stringify(initialPreviewConfig));
                                 // file input update on fileinput bootstrap
-                                
+
                                 $(v).fileinput('destroy').fileinput({
                                     previewFileType: 'image',
                                     browseLabel: 'Select',

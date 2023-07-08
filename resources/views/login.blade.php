@@ -32,7 +32,7 @@
         <div class="container-fluid">
             <div class="navbar-brand">
                 <a href="/" class="d-inline-flex align-items-center">
-                    <img src="{{ asset('frontend/img/logo/w_logo.png') }}" alt="">
+                    <img src="{{ asset('frontend/images/logo-light.png') }}" alt="">
                 </a>
             </div>
 
@@ -71,7 +71,7 @@
                             <div class="card-body">
                                 <div class="text-center mb-3">
                                     <div class="d-inline-flex align-items-center justify-content-center mb-4 mt-2">
-                                        <img src="{{ asset('frontend/img/logo/logo_02.png') }}" class="h-48px"
+                                        <img src="{{ asset('frontend/images/logo-footer-1.png') }}" style="height: 7rem"
                                             alt="">
                                     </div>
                                     <h5 class="mb-0">Login to your account</h5>
