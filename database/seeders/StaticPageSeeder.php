@@ -22,7 +22,7 @@ class StaticPageSeeder extends Seeder
                     "welcome_text" => "Welcome to Royal Weddings International",
                     "button_text" => "Reach Us",
                     "button_link" => "/kontak",
-                    "company_logo" => "1685280156-logo_02.png"
+                    "company_logo" => "1685280156-logo_02.png",
                 ]
             ],
             [
@@ -51,7 +51,7 @@ class StaticPageSeeder extends Seeder
                     "facebook" => "#",
                     "instagram" => "#",
                     "linkedin" => "#",
-                    "youtube" => null,
+                    "youtube" => "#",
                     "tiktok" => null
                 ]
             ],
@@ -76,43 +76,6 @@ class StaticPageSeeder extends Seeder
                     "video_link" => "#",
                     "video_image" => "video01.jpg",
                     "breadcrumb_cover_image" => "1685284411-breadcrumb_bg.jpg",
-                ]
-            ],
-            [
-                'section' => 'servicefacilitation',
-                'data' => [
-                    "breadcrum_title" => "Strategic Facilitation",
-                    "about_section_title" => "Assisting Your Company to
-                    Obtain Excellent Outcome",
-                    "about_section_subtitle" => "Strategic Facilitation",
-                    "about_section_text" => "We are specialized in delivering creative and fun methods to elevate your team’s collaborative spirit. The aim is to build deep interactions between team members that will lead to excellent outcomes.",
-                    "about_section_text_1" => "Experienced in facilitating large area of business",
-                    "about_section_text_2" => "Experienced team to optimize your meeting",
-                    "process_title_1" => "Need Analysis",
-                    "process_text_1" => "Analyze the issues to define  the most eligible solutions for your needs.",
-                    "process_title_2" => "Design & Development",
-                    "process_text_2" => "Providing the concept and tools required to optimize the process.",
-                    "process_title_3" => "Implementation",
-                    "process_text_3" => "Apply the action following the plan in order to develop the best results.",
-                    "process_title_4" => "Evaluation",
-                    "process_text_4" => "Reanalyze the outcome from the previous process to improve the next action.",
-                    "method_title_1" => "Virtual Interactive Workshop",
-                    "method_text_1" => "Conducting online workshops that stimulate participant collaborative involvement",
-                    "method_title_2" => "LMS-Based Online Courses",
-                    "method_text_2" => "Feeding your team with latest industrial competency-based learning management system.",
-                    "method_title_3" => "Engaging Experiential Learning",
-                    "method_text_3" => "Experienceable learning journey for your team that reflecting to related cases on your workplace",
-                    "breadcrumb_cover_image" => "1685285019-breadcrumb_bg.jpg",
-                    "about_service_image_cover" => "1685285019-testimonial_img.jpg",
-                    "process_slot_1" => "1685285096-work_img01.png",
-                    "process_slot_2" => "1685285096-work_img02.png",
-                    "process_slot_3" => "1685285096-work_img03.png",
-                    "process_slot_4" => "1685285096-work_img04.png",
-                    "method_slot_1" => "1685286828-about_icon01.svg",
-                    "method_slot_2" => "1685286828-about_icon02.svg",
-                    "method_slot_3" => "1685286828-about_icon01.svg",
-                    "download_icon_1" => "fas fa-cloud-download-alt",
-                    "download_icon_2" => "fas fa-file-pdf"
                 ]
             ],
             [
@@ -141,8 +104,7 @@ class StaticPageSeeder extends Seeder
                 'data' => [
                     "company_phone" => "(+65) 9338 4263",
                     "company_email" => "hello@royalweddings.com.sg",
-                    "company_address" => "190 CLEMENCEAU AVENUE #06-08<br>
-                    SINGAPORE 239924"
+                    "company_address" => "190 CLEMENCEAU AVENUE #06-08<br>SINGAPORE 239924"
                 ]
             ]
 

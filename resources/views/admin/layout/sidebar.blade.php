@@ -60,13 +60,13 @@
                             <a href="{{ route('admin.cms.about.index') }}" class="nav-link {{ request()->routeIs('admin.cms.about.*') ? 'active' : '' }}">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Our Team</a>
+                            <a href="{{ route('admin.cms.team.index') }}" class="nav-link {{ request()->routeIs('admin.cms.team.*') ? 'active' : '' }}">Our Team</a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link ">Testimoni</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link ">Contact Us</a>
+                            <a href="{{ route('admin.cms.contact.index') }}" class="nav-link {{ request()->routeIs('admin.cms.contact.*') ? 'active' : '' }}">Contact Us</a>
                         </li>
                     </ul>
                 </li>
@@ -86,7 +86,7 @@
                             <a href="{{ route("admin.global.footer.index") }}" class="nav-link {{ request()->routeIs('admin.global.footer.*') ? 'active' : '' }}">Footer</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route("admin.global.contact_widget.index") }}" class="nav-link {{ request()->routeIs('admin.global.contact_widget.*') ? 'active' : '' }}">Contact Widget</a>
+                            <a href="{{ route("admin.global.contact_widget.index") }}" class="nav-link {{ request()->routeIs('admin.global.contact_widget.*') ? 'active' : '' }}">Call to Action</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route("admin.global.contact_info.index") }}" class="nav-link {{ request()->routeIs('admin.global.contact_info.*') ? 'active' : '' }}">Contact Information</a>
@@ -96,6 +96,27 @@
                         </li>
                     </ul>
                 </li>
+                <li class="nav-item-header">
+                    <div class="text-uppercase fs-sm lh-sm opacity-50 sidebar-resize-hide">Other Settings</div>
+                    <i class="ph-dots-three sidebar-resize-show"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route("admin.gallery.index") }}" class="nav-link {{ request()->routeIs('admin.gallery.*') ? 'active' : '' }}">
+                        <i class="ph-image"></i>
+                        <span>
+                            Gallery
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route("admin.inbox.index") }}" class="nav-link {{ request()->routeIs('admin.inbox.*') ? 'active' : '' }}">
+                        <i class="ph-envelope"></i>
+                        <span>
+                            Contact Inbox
+                        </span>
+                    </a>
+                </li>
+
             </ul>
 
         </div>

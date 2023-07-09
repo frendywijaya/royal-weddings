@@ -13,11 +13,10 @@
                 <thead>
                     <tr>
                         <th>No.</th>
-                        <th>Nama Pengirim</th>
-                        <th>Perusahaan</th>
-                        <th>No Telp</th>
+                        <th>Sender Name</th>
+                        <th>Phone Number</th>
                         <th>Email</th>
-                        <th>Waktu</th>
+                        <th>Time</th>
                         <th class="text-center">Actions</th>
                     </tr>
                 </thead>
@@ -29,7 +28,6 @@
                     <tr>
                         <td>{{$no++}}</td>
                         <td>{{$inbox->full_name}}</a></td>
-                        <td>{{$inbox->company_name}}</td>
                         <td>{{$inbox->phone}}</td>
                         <td>{{$inbox->email}}</td>
                         <td>{{ date('d M Y', strtotime($inbox->created_at)) }}</td>

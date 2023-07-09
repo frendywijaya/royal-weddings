@@ -8,7 +8,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="mb-0">Pengaturan Contact Widget</h5>
+                        <h5 class="mb-0">Call to Action</h5>
                     </div>
 
                     <!-- create form -->
@@ -29,29 +29,20 @@
                                         <textarea rows="3" cols="3" class="form-control" placeholder="Default textarea" name="section_text">{{@$staticPage->section_text}}</textarea>
                                     </div>
                                 </div>
-                                <div class="row mb-3 pb-3">
+                                <div class="row mb-3">
                                     <label class="col-form-label col-lg-3">Button Text</label>
                                     <div class="col-lg-9">
                                         <input type="text" class="form-control" name="button_text" value="{{@$staticPage->button_text}}">
                                     </div>
                                 </div>
-                                <div class="row mb-3 pb-3 border-bottom">
+                                <div class="row mb-3">
                                     <label class="col-form-label col-lg-3">Button Link</label>
                                     <div class="col-lg-9">
                                         <input type="text" class="form-control" name="button_link" value="{{@$staticPage->button_link}}">
                                     </div>
                                 </div>
-                                <div class="row mb-3">
-                                    <div class="col-lg-6">
-                                        <p class="fw-semibold">Background Image (464 x 555)</p>
-                                        <div class="parent-file">
-                                            <input type="file" class="file-input file-upload" data-show-caption="true" data-show-upload="false" accept="image/*"
-                                                data-show-remove="false" name="backround_image" data-default="{{@$staticPage->backround_image}}">
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="text-end">
-                                    <button type="submit" class="btn btn-primary btn-save">Simpan <i
+                                    <button type="submit" class="btn btn-primary btn-save">Save <i
                                             class="ph-check-square-offset ms-2"></i></button>
                                 </div>
                             </div>

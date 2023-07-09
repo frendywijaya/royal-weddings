@@ -53,7 +53,6 @@ class TeamController extends Controller
             'name' => 'required',
             'position' => 'required',
             'image' => 'required',
-            'description' => 'required',
         ]);
 
         // insert image jika ada
@@ -70,7 +69,8 @@ class TeamController extends Controller
             'name' => $request->name,
             'position' => $request->position,
             'image' => $image_name,
-            'description' => $request->description,
+            'facebook' => $request->facebook,
+            'linkedin' => $request->linkedin,
         ];
 
         // insert data to table teams
@@ -114,14 +114,14 @@ class TeamController extends Controller
         $request->validate([
             'name' => 'required',
             'position' => 'required',
-            'description' => 'required',
         ]);
 
         // update team
         $team = Team::find($id);
         $team->name = $request->name;
         $team->position = $request->position;
-        $team->description = $request->description;
+        $team->facebook = $request->facebook;
+        $team->linkedin = $request->linkedin;
 
         // cek apakah ada image yang di upload
         if ($request->hasFile('image')) {

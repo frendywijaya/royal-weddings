@@ -28,6 +28,26 @@ Route::group(['as' => 'admin.', 'prefix' => '/admin', 'middleware' => 'auth'], f
     // dashboard
     Route::get('/dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
 
+    // Contact Inbox
+    Route::group(['as' => 'inbox.', 'prefix' => '/inbox'], function () {
+        Route::get('/', [App\Http\Controllers\Admin\InboxController::class, 'index'])->name('index');
+        Route::get('/create', [App\Http\Controllers\Admin\InboxController::class, 'create'])->name('create');
+        Route::post('/store', [App\Http\Controllers\Admin\InboxController::class, 'store'])->name('store');
+        Route::get('/edit/{id}', [App\Http\Controllers\Admin\InboxController::class, 'edit'])->name('edit');
+        Route::post('/update/{id}', [App\Http\Controllers\Admin\InboxController::class, 'update'])->name('update');
+        Route::delete('/delete/{id}', [App\Http\Controllers\Admin\InboxController::class, 'destroy'])->name('delete');
+    });
+
+    // home slider
+    Route::group(['as' => 'gallery.', 'prefix' => '/gallery'], function () {
+        Route::get('/', [App\Http\Controllers\Admin\GalleryController::class, 'index'])->name('index');
+        Route::get('/create', [App\Http\Controllers\Admin\GalleryController::class, 'create'])->name('create');
+        Route::post('/store', [App\Http\Controllers\Admin\GalleryController::class, 'store'])->name('store');
+        Route::get('/edit/{id}', [App\Http\Controllers\Admin\GalleryController::class, 'edit'])->name('edit');
+        Route::patch('/update/{id}', [App\Http\Controllers\Admin\GalleryController::class, 'update'])->name('update');
+        Route::delete('/delete/{id}', [App\Http\Controllers\Admin\GalleryController::class, 'destroy'])->name('destroy');
+    });
+
     Route::group(['as' => 'cms.', 'prefix' => '/cms'], function () {
         // home slider
         Route::group(['as' => 'slider.', 'prefix' => '/slider'], function () {

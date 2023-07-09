@@ -8,7 +8,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="mb-0">Pengaturan Contact Widget</h5>
+                        <h5 class="mb-0">Contact Information</h5>
                     </div>
 
                     <!-- create form -->
@@ -32,13 +32,11 @@
                                 <div class="row mb-3">
                                     <label class="col-form-label col-lg-3">Company Address</label>
                                     <div class="col-lg-9">
-                                        <textarea rows="3" cols="3" class="form-control" id="ckeditor_classic_empty" name="company_address" placeholder="Default textarea">
-                                            {{@$staticPage->company_address}}
-                                        </textarea>
+                                        <textarea rows="3" class="form-control" name="company_address">{{@$staticPage->company_address}}</textarea>
                                     </div>
                                 </div>
                                 <div class="text-end">
-                                    <button type="submit" class="btn btn-primary btn-save">Simpan <i
+                                    <button type="submit" class="btn btn-primary btn-save">Save <i
                                             class="ph-check-square-offset ms-2"></i></button>
                                 </div>
                             </div>

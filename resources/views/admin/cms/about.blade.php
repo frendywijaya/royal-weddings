@@ -199,7 +199,7 @@
                         </div>
                     </div>
                     <div class="text-end mt-3">
-                        <button type="submit" class="btn btn-primary btn-save">Simpan <i
+                        <button type="submit" class="btn btn-primary btn-save">Save <i
                                 class="ph-check-square-offset ms-2"></i></button>
                     </div>
                 </div>

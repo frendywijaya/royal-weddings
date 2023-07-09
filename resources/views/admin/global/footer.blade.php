@@ -8,7 +8,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="mb-0">Pengaturan Footer</h5>
+                        <h5 class="mb-0">Footer Settings</h5>
                     </div>
 
                     <!-- create form -->
@@ -18,30 +18,15 @@
                             <div class="mb-1">
                                 <!-- Default input -->
                                 <div class="row mb-3">
-                                    <label class="col-form-label col-lg-3">Footer Title</label>
-                                    <div class="col-lg-9">
-                                        <input type="text" class="form-control" name="footer_title" value="{{@$staticPage->footer_title}}">
-                                    </div>
-                                </div>
-                                <div class="row mb-3">
                                     <label class="col-form-label col-lg-3">Footer Text</label>
                                     <div class="col-lg-9">
                                         <textarea rows="3" cols="3" class="form-control" placeholder="Default textarea" name="footer_text">{{@$staticPage->footer_text}}</textarea>
                                     </div>
                                 </div>
                                 <div class="row mb-3 pb-3 border-bottom">
-                                    <label class="col-form-label col-lg-3">Footer Tagline</label>
+                                    <label class="col-form-label col-lg-3">Copyright</label>
                                     <div class="col-lg-9">
-                                        <input type="text" class="form-control" name="footer_tagline" value="{{@$staticPage->footer_tagline}}">
-                                    </div>
-                                </div>
-                                <div class="row mb-3">
-                                    <div class="col-lg-6">
-                                        <p class="fw-semibold">Background Image</p>
-                                        <div class="parent-file">
-                                            <input type="file" class="file-input file-upload" data-show-caption="true" data-show-upload="false" accept="image/*"
-                                                data-show-remove="false" name="backround_image" data-default="">
-                                        </div>
+                                        <input type="text" class="form-control" name="copyright" value="{{@$staticPage->copyright}}">
                                     </div>
                                 </div>
                                 <div class="row mb-3">
@@ -54,7 +39,7 @@
                                     </div>
                                 </div>
                                 <div class="text-end">
-                                    <button type="submit" class="btn btn-primary btn-save">Simpan <i
+                                    <button type="submit" class="btn btn-primary btn-save">Save <i
                                             class="ph-check-square-offset ms-2"></i></button>
                                 </div>
                             </div>

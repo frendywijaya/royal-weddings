@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\StaticPage;
 use Illuminate\Http\Request;
 
-class ContactWidgetController extends Controller
+class ContactInfoController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,17 +16,17 @@ class ContactWidgetController extends Controller
     public function index()
     {
         // get data from static_page table
-        $staticContactWidgetData = StaticPage::getData('contactwidget');
+        $staticContactInfo = StaticPage::getData('contactinfo');
 
         $breadcrumbs = [
             ['name' => 'Global Section'],
-            ['name' => 'Call to Action'],
+            ['name' => 'Contact Information'],
         ];
 
-        return view('admin.global.contactwidget', [
-            'staticPage' => $staticContactWidgetData,
+        return view('admin.global.contactinfo',[
+            'staticPage' => $staticContactInfo,
             'breadcrumbs' => $breadcrumbs,
-            'title' => 'Call to Action'
+            'title' => 'Contact Information'
         ]);
     }
 
