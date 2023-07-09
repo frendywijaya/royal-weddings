@@ -41,7 +41,7 @@
                     <div class="text-uppercase fs-sm lh-sm opacity-50 sidebar-resize-hide">Content Management</div>
                     <i class="ph-dots-three sidebar-resize-show"></i>
                 </li>
-
+                 <!-- CMS Section -->
                 <li class="nav-item nav-item-submenu">
                     <a href="#" class="nav-link {{ request()->routeIs('admin.cms.*') ? 'active' : '' }}">
                         <i class="ph-article-medium"></i>
@@ -57,7 +57,7 @@
                             <a href="{{ route('admin.cms.home.index') }}" class="nav-link {{ request()->routeIs('admin.cms.home.*') ? 'active' : '' }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link ">About Us</a>
+                            <a href="{{ route('admin.cms.about.index') }}" class="nav-link {{ request()->routeIs('admin.cms.about.*') ? 'active' : '' }}">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link">Our Team</a>
@@ -67,6 +67,32 @@
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link ">Contact Us</a>
+                        </li>
+                    </ul>
+                </li>
+                 <!-- Global Section -->
+                <li class="nav-item nav-item-submenu {{ request()->routeIs('admin.global.*') ? 'nav-item-expanded' : '' }} {{ request()->routeIs('admin.global.*') ? 'nav-item-open' : '' }}">
+                    <a href="#" class="nav-link {{ request()->routeIs('admin.global.*') ? 'active' : '' }}">
+                        <i class="ph-planet"></i>
+                        <span>
+                            Global Section
+                        </span>
+                    </a>
+                    <ul class="nav-group-sub collapse {{ request()->routeIs('admin.global.*') ? 'show' : '' }}">
+                        <li class="nav-item">
+                            <a href="{{ route("admin.global.header.index") }}" class="nav-link {{ request()->routeIs('admin.global.header.*') ? 'active' : '' }}">Header</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route("admin.global.footer.index") }}" class="nav-link {{ request()->routeIs('admin.global.footer.*') ? 'active' : '' }}">Footer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route("admin.global.contact_widget.index") }}" class="nav-link {{ request()->routeIs('admin.global.contact_widget.*') ? 'active' : '' }}">Contact Widget</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route("admin.global.contact_info.index") }}" class="nav-link {{ request()->routeIs('admin.global.contact_info.*') ? 'active' : '' }}">Contact Information</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route("admin.global.social_media.index") }}" class="nav-link {{ request()->routeIs('admin.global.social_media.*') ? 'active' : '' }}">Social Media</a>
                         </li>
                     </ul>
                 </li>

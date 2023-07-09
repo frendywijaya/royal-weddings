@@ -29,7 +29,6 @@ Route::group(['as' => 'admin.', 'prefix' => '/admin', 'middleware' => 'auth'], f
     Route::get('/dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
 
     Route::group(['as' => 'cms.', 'prefix' => '/cms'], function () {
-
         // home slider
         Route::group(['as' => 'slider.', 'prefix' => '/slider'], function () {
             Route::get('/', [App\Http\Controllers\Admin\SliderController::class, 'index'])->name('index');
@@ -85,6 +84,50 @@ Route::group(['as' => 'admin.', 'prefix' => '/admin', 'middleware' => 'auth'], f
             Route::post('/store', [App\Http\Controllers\Admin\ContactController::class, 'store'])->name('store');
             Route::get('/edit', [App\Http\Controllers\Admin\ContactController::class, 'edit'])->name('edit');
             Route::post('/update', [App\Http\Controllers\Admin\ContactController::class, 'update'])->name('update');
+        });
+    });
+
+    Route::group(['as' => 'global.', 'prefix' => '/global'], function () {
+        // Header
+        Route::group(['as' => 'header.', 'prefix' => '/header'], function () {
+            Route::get('/', [App\Http\Controllers\Admin\HeaderController::class, 'index'])->name('index');
+            Route::post('/store', [App\Http\Controllers\Admin\HeaderController::class, 'store'])->name('store');
+            Route::get('/edit', [App\Http\Controllers\Admin\HeaderController::class, 'edit'])->name('edit');
+            Route::post('/update', [App\Http\Controllers\Admin\HeaderController::class, 'update'])->name('update');
+        });
+
+        // Footer
+        Route::group(['as' => 'footer.', 'prefix' => '/footer'], function () {
+            Route::get('/', [App\Http\Controllers\Admin\FooterController::class, 'index'])->name('index');
+            Route::post('/store', [App\Http\Controllers\Admin\FooterController::class, 'store'])->name('store');
+            Route::get('/edit', [App\Http\Controllers\Admin\FooterController::class, 'edit'])->name('edit');
+            Route::post('/update', [App\Http\Controllers\Admin\FooterController::class, 'update'])->name('update');
+        });
+
+        // contact_widget
+        Route::group(['as' => 'contact_widget.', 'prefix' => '/contact_widget'], function () {
+            Route::get('/', [App\Http\Controllers\Admin\ContactWidgetController::class, 'index'])->name('index');
+            Route::post('/store', [App\Http\Controllers\Admin\ContactWidgetController::class, 'store'])->name('store');
+            Route::get('/edit', [App\Http\Controllers\Admin\ContactWidgetController::class, 'edit'])->name('edit');
+            Route::post('/update', [App\Http\Controllers\Admin\ContactWidgetController::class, 'update'])->name('update');
+        });
+
+        // contact_info
+        Route::group(['as' => 'contact_info.', 'prefix' => '/contact_info'], function () {
+            Route::get('/', [App\Http\Controllers\Admin\ContactInfoController::class, 'index'])->name('index');
+            Route::post('/store', [App\Http\Controllers\Admin\ContactInfoController::class, 'store'])->name('store');
+            Route::get('/edit', [App\Http\Controllers\Admin\ContactInfoController::class, 'edit'])->name('edit');
+            Route::post('/update', [App\Http\Controllers\Admin\ContactInfoController::class, 'update'])->name('update');
+        });
+
+        // Social Media Page
+        Route::group(['as' => 'social_media.', 'prefix' => '/social_media'], function () {
+            Route::get('/', [App\Http\Controllers\Admin\SocialMediaController::class, 'index'])->name('index');
+            Route::get('/create', [App\Http\Controllers\Admin\SocialMediaController::class, 'create'])->name('create');
+            Route::post('/store', [App\Http\Controllers\Admin\SocialMediaController::class, 'store'])->name('store');
+            Route::get('/edit/{id}', [App\Http\Controllers\Admin\SocialMediaController::class, 'edit'])->name('edit');
+            Route::post('/update/{id}', [App\Http\Controllers\Admin\SocialMediaController::class, 'update'])->name('update');
+            Route::get('/delete/{id}', [App\Http\Controllers\Admin\SocialMediaController::class, 'delete'])->name('delete');
         });
     });
 

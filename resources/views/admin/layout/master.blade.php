@@ -61,25 +61,6 @@
 
                 @include('admin.layout.page_header')
 
-                <!-- success message -->
-                @if (session('success'))
-                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    {{ session('success') }}
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
-                @endif
-                <!-- error message -->
-                @if ($errors->any())
-                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
-                @endif
-
                 @yield('content')
 
                 @include('admin.layout.footer')
@@ -279,7 +260,7 @@
                 // set title modal
                 $('#modal_form .modal-title').text('Edit ' + $('#title-page').text());
                 // set button submit
-                $('#modal_form form button[type=submit]').text('Simpan Perubahan');
+                $('#modal_form form button[type=submit]').text('Save Changes');
                 // show modal
                 $('#modal_form').modal('show');
             });

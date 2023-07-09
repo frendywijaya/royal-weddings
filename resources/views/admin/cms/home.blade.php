@@ -10,9 +10,10 @@
                 <h5 class="mb-0">Home Page Content Management</h5>
             </div>
 
-            <form action="{{ route('admin.staticpage.save', 'aboutstatic') }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('admin.staticpage.save', 'homestatic') }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="card-body">
+                    @include('admin.layout.success')
                     <div class="accordion" id="accordion_expanded">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
