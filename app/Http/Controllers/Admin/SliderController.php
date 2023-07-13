@@ -113,7 +113,6 @@ class SliderController extends Controller
         $request->validate([
             'title' => 'required',
             'subtitle' => 'required',
-            'content' => 'required',
             'button_text' => 'required',
             'button_link' => 'required',
         ]);
@@ -127,7 +126,6 @@ class SliderController extends Controller
             $slider_data = [
                 'title' => $request->title,
                 'subtitle' => $request->subtitle,
-                'content' => $request->content,
                 'button_text' => $request->button_text,
                 'button_link' => $request->button_link,
             ];
@@ -145,7 +143,6 @@ class SliderController extends Controller
             $slider_data = [
                 'title' => $request->title,
                 'subtitle' => $request->subtitle,
-                'content' => $request->content,
                 'image' => $image_name,
                 'button_text' => $request->button_text,
                 'button_link' => $request->button_link,

@@ -6,19 +6,21 @@
         <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel"
             data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
             <!-- Slide Item -->
+            @foreach ($sliders as $item)
             <div class="slide-item">
                 <div class="image-layer lazy-image"
-                    style="background-image: url('{{ asset('frontend/images/main-slider/banner-2-1.jpg') }}');"></div>
+                    style="background-image: url('{{ asset($pathSlider.$item->image) }}');"></div>
                 <div class="container">
                     <div class="content-box text-center">
-                        <h3>First Class Service</h3>
-                        <h2>Singapore's Finest Destination <br />Wedding Planner</h2>
+                        <h3>{{$item->title}}</h3>
+                        <h2>{{$item->subtitle}}</h2>
                         <div class="btn-box">
-                            <a href="/about" class="thm-btn btn-style-one">Learn More</a>
+                            <a href="{{$item->button_link}}" class="thm-btn btn-style-one">{{$item->button_text}}</a>
                         </div>
                     </div>
                 </div>
             </div>
+            @endforeach
             <!-- Slide Item -->
             <div class="slide-item">
                 <div class="image-layer lazy-image"

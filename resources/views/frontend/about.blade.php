@@ -161,56 +161,25 @@
                 <h3>Expert Members</h3>
             </div><!-- /.block-title-two -->
             <div class="row">
+                @foreach($teams as $team)
                 <div class="col-lg-4">
                     <div class="team-one__single">
                         <div class="team-one__image">
-                            <img src="{{ asset('frontend/images/team/team-1-1.jpg') }}" alt="">
+                            <img src="{{ asset('uploads/team/'.@$team->image)}}" alt="">
                             <div class="team-one__social">
-                                <a href="#" class="fab fa-facebook-f"></a>
+                                <a href="{{ @$team->facebook }}" class="fab fa-facebook-f"></a>
                                 {{-- <a href="#" class="fab fa-twitter"></a> --}}
-                                <a href="#" class="fab fa-linkedin-in"></a>
+                                <a href="{{ @$team->linkedin }}" class="fab fa-linkedin-in"></a>
                             </div><!-- /.team-one__social -->
                         </div><!-- /.team-one__image -->
                         <div class="team-one__content">
-                            <h3>Zachariah Thanaraj</h3>
-                            <p>Founder - CEO</p>
+                            <h3>{{ $team->name }}</h3>
+                            <p>{{ $team->position }}</p>
                         </div><!-- /.team-one__content -->
                     </div><!-- /.team-one__single -->
                 </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <div class="team-one__single">
-                        <div class="team-one__image">
-                            <img src="{{ asset('frontend/images/team/team-1-2.jpg') }}" alt="">
-                            <div class="team-one__social">
-                                <a href="#" class="fab fa-facebook-f"></a>
-                                {{-- <a href="#" class="fab fa-twitter"></a> --}}
-                                <a href="#" class="fab fa-linkedin-in"></a>
-                            </div><!-- /.team-one__social -->
-                        </div><!-- /.team-one__image -->
-                        <div class="team-one__content">
-                            <h3>Vinod Sivapillai</h3>
-                            <p>Founder - COO</p>
-                        </div><!-- /.team-one__content -->
 
-                    </div><!-- /.team-one__single -->
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <div class="team-one__single">
-                        <div class="team-one__image">
-                            <img src="{{ asset('frontend/images/team/team-1-3.jpg') }}" alt="">
-                            <div class="team-one__social">
-                                <a href="#" class="fab fa-facebook-f"></a>
-                                {{-- <a href="#" class="fab fa-twitter"></a> --}}
-                                <a href="#" class="fab fa-linkedin-in"></a>
-                            </div><!-- /.team-one__social -->
-                        </div><!-- /.team-one__image -->
-                        <div class="team-one__content">
-                            <h3>Gabrielle Hema</h3>
-                            <p>Client Relations</p>
-                        </div><!-- /.team-one__content -->
-
-                    </div><!-- /.team-one__single -->
-                </div><!-- /.col-lg-4 -->
+                @endforeach
 
             </div><!-- /.row -->
         </div><!-- /.container -->
