@@ -8,7 +8,7 @@ use App\Models\BulletPoint;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
-class HomeController extends Controller
+class HomeController extends BaseController
 {
     //show home data
     public function index()
@@ -20,12 +20,15 @@ class HomeController extends Controller
         // get bullet points
         $bulletPoints = BulletPoint::all();
 
+        $googlemap = StaticPage::getData('contactstatic');
+
         return view('frontend.home',[
             'sliders' => $sliders,
             'pathSlider' => Slider::PATH,
             'staticHome' => $staticAbout,
             'bullets' => $bulletPoints,
             'pathBullet' => BulletPoint::PATH,
+            'google' => $googlemap,
         ]);
     }
 }

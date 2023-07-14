@@ -84,10 +84,9 @@
                             <div class="cta-two__content">
                                 <h3>Our Headquarter</h3>
                                 <p>
-                                    190 CLEMENCEAU AVENUE #06-08<br>
-                                    SINGAPORE 239924
+                                    {!! @$staticContactInfo->company_address !!}
                                 </p>
-                                <a href="contact.html" class="thm-btn">Getting Here</a><!-- /.thm-btn -->
+                                <a href="https://www.google.com/maps/place/190+Clemenceau+Ave,+Singapore+239924/@1.298162,103.844132,16z/data=!4m6!3m5!1s0x31da199804a12a3d:0xa3eddf5a5ae7c117!8m2!3d1.2981622!4d103.844132!16s%2Fg%2F11csjb3lfr?hl=en&entry=ttu" class="thm-btn">Getting Here</a><!-- /.thm-btn -->
                             </div>
                             <!-- /.cta-two__box -->
                         </div>
@@ -103,10 +102,10 @@
                             <div class="cta-two__content">
                                 <h3>Reach Us</h3>
                                 <p>
-                                    hello@royalweddings.com.sg<br />
-                                    (+65) 9338 4263
+                                    {!! @$staticContactInfo->company_email !!}<br />
+                                    {!! @$staticContactInfo->company_phone !!}
                                 </p>
-                                <a href="https://wa.me/6593384263" class="thm-btn">Whatsapp Us</a><!-- /.thm-btn -->
+                                <a href="https://wa.me/{{ preg_replace("/[^0-9]/","", $staticContactInfo->company_phone)}}" class="thm-btn">Whatsapp Us</a><!-- /.thm-btn -->
                             </div>
                             <!-- /.cta-two__box -->
                         </div>
@@ -128,20 +127,16 @@
                 <div class="col-lg-6">
                     <div class="about-two__content">
                         <div class="block-title">
-                            <p>Your Wedding Journey Starts Here</p>
-                            <h3>Royal Weddings International</h3>
+                            <p>{{ @$staticHome->about_title }}</p>
+                            <h3>{{ @$staticHome->about_subtitle }}</h3>
                         </div>
                         <!-- /.block-title -->
                         <p class="about-two__highlight">
-                            Welcome to Royal Weddings International. We are the largest destination wedding organizer in
-                            Singapore.
+                            {{ @$staticHome->about_text_1 }}
                         </p>
                         <!-- /.about-two__highlight -->
                         <p>
-                            Royal Weddings International was formed to strive for excellence in every aspect of our work,
-                            aiming to exceed expectations and deliver exceptional service and experiences to our clients. We
-                            at Royal Weddings International uphold the highest standards of integrity, honesty, and
-                            transparency in our interactions with clients, partners, and team members.
+                            {{ @$staticHome->about_text_2 }}
                         </p>
                     </div>
                     <!-- /.about-two__content -->
@@ -169,8 +164,7 @@
                     <h3><span>Our</span> <br> Specialty</h3>
                 </div><!-- /.cta-three__title -->
                 <div class="cta-three__content">
-                    <p>Experience one stop wedding solution for destination wedding. Enjoy the ultimate priviledge of
-                        comfort and peace while we do the magic.</p>
+                    <p> {{ @$staticHome->specialty_text }}</p>
                     <div class="cta-three__list-wrap">
                         <div class="row">
                             <div class="col-4">

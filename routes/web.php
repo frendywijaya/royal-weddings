@@ -20,8 +20,11 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('la
 Route::get('/about', [App\Http\Controllers\AboutController::class, 'index'])->name('about');
 Route::get('/gallery', [App\Http\Controllers\GalleryController::class, 'index'])->name('gallery');
 Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index'])->name('contact');
+Route::get('/success', [App\Http\Controllers\SuccessController::class, 'index'])->name('success');
 
 require __DIR__ . '/auth.php';
+
+Route::post('/send-massage', [App\Http\Controllers\ContactController::class, 'storeMassage'])->name('storeMassage');
 
 // grouping route admin with middleware auth
 Route::group(['as' => 'admin.', 'prefix' => '/admin', 'middleware' => 'auth'], function () {

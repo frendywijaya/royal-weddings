@@ -5,35 +5,26 @@
     <section class="page-header"
         style="background-image: url({{ asset('frontend/images/backgrounds/page-header-bg-1-1.jpg') }});">
         <div class="container">
-            <h2>About Us</h2>
+            <h2>{{ @$staticAbout->page_title }}</h2>
         </div><!-- /.container -->
     </section><!-- /.page-header -->
 
     <section class="about-four">
         <div class="container">
             <div class="about-four__image wow fadeInRight" data-wow-duration="1500ms">
-                <img src="{{ asset('frontend/images/resources/about-4-1.jpg') }}" alt="">
+                <img src="{{ asset('uploads/staticpage/'.$staticAbout->about_company_image) }}" alt="">
             </div><!-- /.about-four__image -->
             <div class="row">
                 <div class="col-lg-6">
                     <div class="about-four__content">
                         <div class="block-title">
-                            <p>About Us</p>
-                            <h3>Royal Weddings International</h3>
+                            <p>{{ @$staticAbout->about_company_title }}</p>
+                            <h3>{{ @$staticAbout->about_company_section_subtitle }}</h3>
                         </div><!-- /.block-title -->
                         <div class="about-four__highlite-text">
-                            <p>Welcome to Royal Weddings International. We are the largest destination wedding organizer in
-                                Singapore.</p>
+                            <p>{{ @$staticAbout->about_company_section_text }}</p>
                         </div><!-- /.about-four__highlite-text -->
-                        <p>Royal Weddings International was formed to strive for excellence in every aspect of our work,
-                            aiming to exceed expectations and deliver exceptional service and experiences to our clients. We
-                            at Royal Weddings International uphold the highest standards of integrity, honesty, and
-                            transparency in our interactions with clients, partners, and team members. We believe in
-                            building trusting relationships based on mutual respect and ethical conduct. We value the
-                            uniqueness of each couple and their vision for their special day. We are dedicated to creating
-                            personalized, tailor-made experiences that reflect their individual style, preferences, and
-                            cultural backgrounds.We embrace creativity and innovation, constantly seeking fresh ideas and
-                            unique solutions to make each wedding extraordinary and memorable.</p>
+                        <p>{{ @$staticAbout->about_company_section_text_2 }}</p>
                     </div><!-- /.about-four__content -->
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->
@@ -79,7 +70,7 @@
 
                         <div class="event-two__image">
                             <div class="event-two__image-inner">
-                                <img src="{{ asset('frontend/images/event/event-2-3.jpg') }}" alt="">
+                                <img src="{{ asset('uploads/staticpage/'.$staticAbout->extra_image_1) }}" alt="">
                             </div><!-- /.event-two__image-inner -->
                         </div><!-- /.event-two__image -->
                     </div><!-- /.col-lg-5 -->
@@ -87,10 +78,10 @@
                         <div class="my-auto">
                             <div class="event-two__content">
                                 <div class="block-title event-two__title">
-                                    <p>Our Mission</p>
+                                    <p>{{ @$staticAbout->extra_title_1 }}</p>
                                     {{-- <h3>Calvert Richard Jones’s Duomo.</h3> --}}
                                 </div><!-- /.event-two__title -->
-                                <p>Our mission is to create unforgettable moments of love and celebration, crafting exceptional weddings that reflect the unique personalities and dreams of each couple.
+                                <p>{{ @$staticAbout->extra_text_1 }}
                                 </p>
                                 <!-- /.thm-btn event-two__btn -->
                             </div><!-- /.event-two__content -->
@@ -107,7 +98,7 @@
 
                         <div class="event-two__image">
                             <div class="event-two__image-inner">
-                                <img src="{{ asset('frontend/images/event/event-2-3.jpg') }}" alt="">
+                                <img src="{{ asset('uploads/staticpage/'.$staticAbout->extra_image_2) }}" alt="">
                             </div><!-- /.event-two__image-inner -->
                         </div><!-- /.event-two__image -->
                     </div><!-- /.col-lg-5 -->
@@ -115,9 +106,10 @@
                         <div class="my-auto">
                             <div class="event-two__content">
                                 <div class="block-title event-two__title">
-                                    <p>Our Values</p>
+                                    <p>{{ @$staticAbout->extra_title_2 }}</p>
+                                    {{-- <h3>Calvert Richard Jones’s Duomo.</h3> --}}
                                 </div><!-- /.event-two__title -->
-                                <p>We are dedicated to providing the highest level of service, professionalism, and attention to detail, ensuring that every aspect of the wedding journey is seamlessly planned and executed. By combining our expertise, creativity, and passion, we aim to exceed expectations and deliver extraordinary experiences that leave lasting memories for our cherished clients and their loved ones.
+                                <p>{{ @$staticAbout->extra_text_2 }}
                                 </p>
                                 <!-- /.thm-btn event-two__btn -->
                             </div><!-- /.event-two__content -->
@@ -132,7 +124,7 @@
 
                         <div class="event-two__image">
                             <div class="event-two__image-inner">
-                                <img src="{{ asset('frontend/images/event/event-2-3.jpg') }}" alt="">
+                                <img src="{{ asset('uploads/staticpage/'.$staticAbout->extra_image_3) }}" alt="">
                             </div><!-- /.event-two__image-inner -->
                         </div><!-- /.event-two__image -->
                     </div><!-- /.col-lg-5 -->
@@ -140,9 +132,10 @@
                         <div class="my-auto">
                             <div class="event-two__content">
                                 <div class="block-title event-two__title">
-                                    <p>Our Promise</p>
+                                    <p>{{ @$staticAbout->extra_title_3 }}</p>
+                                    {{-- <h3>Calvert Richard Jones’s Duomo.</h3> --}}
                                 </div><!-- /.event-two__title -->
-                                <p>With a commitment to inclusivity, diversity, and personalized care, we strive to make every couple feel valued, supported, and celebrated as they embark on their lifelong journey together. Our ultimate goal is to transform dreams into reality, weaving together love, joy, and enchantment, one breathtaking wedding at a time.
+                                <p>{{ @$staticAbout->extra_text_3 }}
                                 </p>
                                 <!-- /.thm-btn event-two__btn -->
                             </div><!-- /.event-two__content -->

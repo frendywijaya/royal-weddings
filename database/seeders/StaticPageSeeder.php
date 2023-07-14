@@ -63,7 +63,7 @@ class StaticPageSeeder extends Seeder
                     "about_company_section_subtitle" => "Royal Weddings International",
                     "about_company_section_text" => "Welcome to Royal Weddings International. We are the largest destination wedding organizer in Singapore.",
                     "about_company_section_text_2" => "Royal Weddings International was formed to strive for excellence in every aspect of our work, aiming to exceed expectations and deliver exceptional service and experiences to our clients. We at Royal Weddings International uphold the highest standards of integrity, honesty, and transparency in our interactions with clients, partners, and team members. We believe in building trusting relationships based on mutual respect and ethical conduct. We value the uniqueness of each couple and their vision for their special day. We are dedicated to creating personalized, tailor-made experiences that reflect their individual style, preferences, and cultural backgrounds.We embrace creativity and innovation, constantly seeking fresh ideas and unique solutions to make each wedding extraordinary and memorable.",
-                    "about_company_image" => "about_image.jpg",
+                    "about_company_image" => "about_image2.jpg",
                     "extra_title_1" => "Our Mission",
                     "extra_text_1" => "Our mission is to create unforgettable moments of love and celebration, crafting exceptional weddings that reflect the unique personalities and dreams of each couple.",
                     "extra_image_1" => "extra01.jpg",

@@ -21,11 +21,12 @@ class BaseController extends Controller
         // get contact info
         $staticContactInfo = StaticPage::getData('contactinfo');
 
+
         // share data to all views
         view()->share([
             'staticHeaderData' => $staticHeaderData,
             'staticFooterData' => $staticFooterData,
-            'staticSocialMediaData' => $staticSocialMediaData,
+            'SocialMedia' => $staticSocialMediaData,
             'staticContactData' => $staticContactData,
             'staticContactInfo' => $staticContactInfo,
         ]);

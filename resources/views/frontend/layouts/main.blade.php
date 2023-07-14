@@ -46,8 +46,8 @@
                     <p>Welcome to Royal Weddings International</p>
                 </div><!-- /.topbar-one__left -->
                 <div class="topbar-one__right">
-                    <a href="mailto:hello@royalweddings.com.sg"><i class="far fa-envelope"></i> hello@royalweddings.com.sg</a>
-                    <a href="https://wa.me/6593384263"><i class="fa fa-phone-alt"></i> (+65) 9338 4263</a>
+                    <a href="mailto:hello@royalweddings.com.sg"><i class="far fa-envelope"></i> {!! @$staticContactInfo->company_email !!}</a>
+                    <a href="https://wa.me/{{ preg_replace("/[^0-9]/","", $staticContactInfo->company_phone)}}"><i class="fa fa-phone-alt"></i> {!! @$staticContactInfo->company_phone !!}</a>
                     <a href="/contact" class="thm-btn topbar__btn">Reach Us</a><!-- /.thm-btn -->
                 </div><!-- /.topbar-one__right -->
             </div><!-- /.container -->
@@ -98,8 +98,8 @@
             </a>
             <div class="side-content__block-about">
                 <h3 class="side-content__block__title">About Us</h3><!-- /.side-content__block__title -->
-                <p class="side-content__block-about__text">We must explain to you how all seds this mistakens idea off denouncing pleasures and praising pain was born and I will give you a completed accounts off the system and </p><!-- /.side-content__block-about__text -->
-                <a href="#" class="thm-btn side-content__block-about__btn">Get Consultation</a>
+                <p class="side-content__block-about__text">{{@$staticFooterData->footer_text}}</p><!-- /.side-content__block-about__text -->
+                <a href="/contact" class="thm-btn side-content__block-about__btn">Get Consultation</a>
             </div><!-- /.side-content__block-about -->
             <hr class="side-content__block-line" />
             <div class="side-content__block-contact">
@@ -107,19 +107,15 @@
                 <ul class="side-content__block-contact__list">
                     <li class="side-content__block-contact__list-item">
                         <i class="fa fa-map-marker"></i>
-                        Rock St 12, Newyork City, USA
+                        {!! @$staticContactInfo->company_address !!}
                     </li><!-- /.side-content__block-contact__list-item -->
                     <li class="side-content__block-contact__list-item">
                         <i class="fa fa-phone"></i>
-                        <a href="tel:526-236-895-4732">(65) 236-895-4732</a>
+                        <a href="tel:{!! @$staticContactInfo->company_phone !!}">{!! @$staticContactInfo->company_phone!!}</a>
                     </li><!-- /.side-content__block-contact__list-item -->
                     <li class="side-content__block-contact__list-item">
                         <i class="fa fa-envelope"></i>
-                        <a href="mailto:example@mail.com">example@mail.com</a>
-                    </li><!-- /.side-content__block-contact__list-item -->
-                    <li class="side-content__block-contact__list-item">
-                        <i class="fa fa-clock"></i>
-                        Week Days: 09.00 to 18.00<br>Sunday: Closed
+                        <a href="mailto:{!! @$staticContactInfo->company_email !!}">{!! @$staticContactInfo->company_email !!}</a>
                     </li><!-- /.side-content__block-contact__list-item -->
                 </ul><!-- /.side-content__block-contact__list -->
             </div><!-- /.side-content__block-contact -->

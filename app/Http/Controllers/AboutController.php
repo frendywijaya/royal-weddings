@@ -7,7 +7,7 @@ use App\Models\StaticPage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
-class AboutController extends Controller
+class AboutController extends BaseController
 {
     //show home data
     public function index()
@@ -17,6 +17,7 @@ class AboutController extends Controller
 
         return view('frontend.about', [
             'teams' => $teams,
+            'staticAbout' => $staticAbout,
             'path' => Team::PATH,
         ]);
     }
