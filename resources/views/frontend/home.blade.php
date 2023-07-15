@@ -21,34 +21,6 @@
                 </div>
             </div>
             @endforeach
-            <!-- Slide Item -->
-            <div class="slide-item">
-                <div class="image-layer lazy-image"
-                    style="background-image: url('{{ asset('frontend/images/main-slider/banner-2-2.jpg') }}');"></div>
-                <div class="container">
-                    <div class="content-box text-center">
-                        <h3>First Class Service</h3>
-                        <h2>Singapore's Finest Destination <br />Wedding Planner</h2>
-                        <div class="btn-box">
-                            <a href="/about" class="thm-btn btn-style-one">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Slide Item -->
-            <div class="slide-item">
-                <div class="image-layer lazy-image"
-                    style="background-image: url('{{ asset('frontend/images/main-slider/banner-2-3.jpg') }}');"></div>
-                <div class="container">
-                    <div class="content-box text-center">
-                        <h3>First Class Service</h3>
-                        <h2>Singapore's Finest Destination <br />Wedding Planner</h2>
-                        <div class="btn-box">
-                            <a href="/about" class="thm-btn btn-style-one">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
     <!-- end banner section -->
