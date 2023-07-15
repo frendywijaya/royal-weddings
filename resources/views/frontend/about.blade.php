@@ -181,7 +181,7 @@
     <section class="video-one text-center"
         style="background-image: url({{ asset('frontend/images/resources/video-parallax-1-1-.jpg') }});">
         <div class="container">
-            <a href="https://www.youtube.com/watch?v=hO1tzmi1V5g" class="video-popup video-one__btn"><i
+            <a href="#" class="video-popup video-one__btn"><i
                     class="fa fa-play"></i></a><!-- /.video-popup video-one__btn -->
         </div><!-- /.container -->
     </section><!-- /.video-one -->

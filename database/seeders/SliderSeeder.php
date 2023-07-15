@@ -19,21 +19,21 @@ class SliderSeeder extends Seeder
             [
                 'title' => 'First Class Service',
                 'subtitle' => 'Singapore\'s Finest Destination Wedding Planner',
-                'image' => 'slider01.jpg',
+                'image' => '81-banner-2-1.jpg',
                 'button_text' => 'Discover More',
                 'button_link' => '/about',
             ],
             [
                 'title' => 'First Class Service',
                 'subtitle' => 'Singapore\'s Finest Destination Wedding Planner',
-                'image' => 'slider02.jpg',
+                'image' => '61-banner-2-2.jpg',
                 'button_text' => 'Discover More',
                 'button_link' => '/about',
             ],
             [
                 'title' => 'First Class Service',
                 'subtitle' => 'Singapore\'s Finest Destination Wedding Planner',
-                'image' => 'slider03.jpg',
+                'image' => '82-banner-2-3.jpg',
                 'button_text' => 'Discover More',
                 'button_link' => '/about',
             ]

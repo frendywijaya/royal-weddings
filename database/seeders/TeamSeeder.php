@@ -17,7 +17,7 @@ class TeamSeeder extends Seeder
             [
                 'name' => 'Zachariah Thanaraj',
                 'position' => 'FOUNDER - CEO',
-                'image' => 'team_img01.jpg',
+                'image' => '1689254600.jpg',
                 'facebook' => '#',
                 'linkedin' => '#'
             ],
