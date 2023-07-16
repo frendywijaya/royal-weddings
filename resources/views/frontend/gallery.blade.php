@@ -24,9 +24,9 @@
                             <img src="{{ asset('uploads/galleries/'.$gallery->image )}}" alt="">
                             <a href="{{ asset('uploads/galleries/'.$gallery->image )}}" target="_blank" class="collection-grid__link">+</a><!-- /.collection-grid__link -->
                         </div><!-- /.collection-grid__image -->
-                        <div class="collection-grid__content">
+                        {{-- <div class="collection-grid__content">
                             <h3><a href="#">{{ @$gallery->title }}</a></h3>
-                        </div><!-- /.collection-grid__content -->
+                        </div><!-- /.collection-grid__content --> --}}
                     </div><!-- /.collection-grid__single -->
                 </div><!-- /.col-lg-4 -->
             @endforeach

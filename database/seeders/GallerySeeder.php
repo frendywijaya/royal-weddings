@@ -15,20 +15,13 @@ class GallerySeeder extends Seeder
     public function run()
     {
         // add slider
-        $galleries = [
-            [
+        $galleries = [];
+        for ($i = 1; $i <= 58; $i++) {
+            $galleries[] = [
                 'title' => 'First Class Service',
-                'image' => 'slider01.jpg',
-            ],
-            [
-                'title' => 'First Class Service',
-                'image' => 'slider02.jpg',
-            ],
-            [
-                'title' => 'First Class Service',
-                'image' => 'slider03.jpg',
-            ]
-        ];
+                'image' => 'image' . sprintf('%02d', $i) . '.jpg',
+            ];
+        }
 
         foreach ($galleries as $gallery) {
             Gallery::create($gallery);
