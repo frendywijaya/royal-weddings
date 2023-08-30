@@ -20,6 +20,11 @@
                     <div class="contact-one__box">
                         <h3>{{ @$staticKontak->address_title }}</h3>
                         <p>{!! @$staticContactInfo->company_address !!}</p>
+                        
+                        <h3 class="mt-4">Indore Office</h3>
+                        <p>Q27, The White Sage, Golf Links,<br>Near Garha Golf Club, Kanadia Riad<br>Indore 452016 </p>
+                        <h3 class="mt-4">Chennai Office</h3>
+                        <p>AMG Towers 28, Lawyer Jagannathan Street Alandur, Guindy, Chennai, Tamil Nadu<br>India 600016</p>
                         <p>
                             <a href="mailto:{!! @$staticContactInfo->company_email !!}">{!! @$staticContactInfo->company_email !!}</a> <br> <a
                                 href="{!! @$staticContactInfo->company_phone !!}">{!! @$staticContactInfo->company_phone !!}</a>
