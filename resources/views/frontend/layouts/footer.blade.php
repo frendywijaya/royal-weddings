@@ -39,7 +39,7 @@
                 <div class="col-lg-3">
                     <div class="footer-widget footer-widget__open-hrs">
                         <h3 class="footer-widget__title">Social Media</h3><!-- /.footer-widget__title -->
-                        <div class="contact-one__box-social">
+                        <div class="contact-one__box-social d-flex justify-content-center">
                             @if (@$SocialMedia->facebook)
                                 <a href="{{ $SocialMedia->facebook }}" class="fab fa-facebook-f"></a>
                             @endif

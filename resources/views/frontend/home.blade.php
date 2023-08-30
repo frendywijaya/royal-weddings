@@ -139,25 +139,25 @@
                     <p> {{ @$staticHome->specialty_text }}</p>
                     <div class="cta-three__list-wrap">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-md-4 col-12">
                                 <ul class="list-unstyled cta-three__list">
                                     <li>Wedding Deco & Planning</li>
                                     <li>Hotel & Venue Reservation</li>
                                     <li>Food & Catering</li>
                                 </ul>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4 col-12">
                                 <ul class="list-unstyled cta-three__list">
-                                    <li>Wedding Deco & Planning</li>
-                                    <li>Hotel & Venue Reservation</li>
-                                    <li>Food & Catering</li>
+                                    <li>Make Up & Hair Stylist</li>
+                                    <li>Entertainment & Performance</li>
+                                    <li>Photo & Videography</li>
                                 </ul>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4 col-12">
                                 <ul class="list-unstyled cta-three__list">
-                                    <li>Wedding Deco & Planning</li>
-                                    <li>Hotel & Venue Reservation</li>
-                                    <li>Food & Catering</li>
+                                    <li>Logistic & Manpower</li>
+                                    <li>Gift & Merchandise</li>
+                                    <li>Bridal Costume</li>
                                 </ul>
                             </div>
 
