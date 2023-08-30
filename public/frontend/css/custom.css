@@ -50,20 +50,25 @@
     .about-four__image {
         top: 14px;
     }
+
     .footer-widget__about {
         display: none;
     }
+
     .site-footer__bottom .inner-container {
         padding-top: 96px;
         padding-bottom: 20px;
     }
+
     .site-footer__bottom-logo {
         left: auto;
     }
-    .footer-widget__links-list li::before{
+
+    .footer-widget__links-list li::before {
         display: none;
     }
-    .site-footer__upper{
+
+    .site-footer__upper {
         text-align: center;
         padding-top: 90px;
         padding-bottom: 40px;
@@ -75,4 +80,9 @@
     margin-top: -220px;
     margin-bottom: 90px;
 
+}
+
+.side-menu__logo .mCS_img_loaded {
+    width: auto;
+    height: 36px;
 }
