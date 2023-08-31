@@ -38,6 +38,10 @@
     padding-top: 120px;
 }
 
+.about-four {
+    background-color: white;
+}
+
 .about-four__image {
     top: 80px;
 }
@@ -86,3 +90,21 @@
     width: auto;
     height: 36px;
 }
+
+.video-header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+video#bgVideo {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    }

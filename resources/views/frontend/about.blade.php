@@ -1,12 +1,21 @@
 @extends('frontend.layouts.main')
 
 @section('content')
-    <!-- Header Content -->
+    {{-- <!-- Header Content -->
     <section class="page-header"
         style="background-image: url({{ asset('frontend/images/backgrounds/page-header-bg-1-1.jpg') }});">
         <div class="container">
             <h2>{{ @$staticAbout->page_title }}</h2>
         </div><!-- /.container -->
+    </section><!-- /.page-header --> --}}
+
+    <!-- Header Content -->
+    <section class="page-header video-header">
+
+            <video id="bgVideo" preload="true" autoplay loop muted>
+                <source src="{{ asset('frontend/video/bg_video.mp4') }}" type="video/mp4" />
+             </video>
+
     </section><!-- /.page-header -->
 
     <section class="about-four">
