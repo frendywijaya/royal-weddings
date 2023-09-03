@@ -188,7 +188,7 @@
     </section><!-- /.team-one -->
 
     <section class="video-one text-center"
-        style="background-image: url({{ asset('frontend/images/resources/video-parallax-1-1-.jpg') }});">
+        style="background-image: url({{ asset('frontend/images/resources/videobg.jpg') }});">
         <div class="container">
             <a href="{{ asset('frontend/video/royal.mp4') }}" class="video-popup video-one__btn"><i
                     class="fa fa-play"></i></a><!-- /.video-popup video-one__btn -->
